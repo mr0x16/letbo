@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9838B83AD128ECD3EC94A107 /* Pods_letbo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50605824D943800692E22685 /* Pods_letbo.framework */; };
+		D3833F891E156A590036A5F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3833F881E156A590036A5F3 /* AppDelegate.swift */; };
+		D3833F8B1E156A590036A5F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3833F8A1E156A590036A5F3 /* ViewController.swift */; };
+		D3833F8E1E156A590036A5F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3833F8C1E156A590036A5F3 /* Main.storyboard */; };
+		D3833F901E156A590036A5F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3833F8F1E156A590036A5F3 /* Assets.xcassets */; };
+		D3833F931E156A590036A5F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3833F911E156A590036A5F3 /* LaunchScreen.storyboard */; };
+		D38C3B391E1C10CF00E77572 /* weiboDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38C3B381E1C10CF00E77572 /* weiboDelegate.swift */; };
+		D3BD2BEB1E19626C00D44A54 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BD2BEA1E19626C00D44A54 /* testViewController.swift */; };
+		D3EA92711E18089100F1FE4C /* feedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EA92701E18089100F1FE4C /* feedViewController.swift */; };
+		D3EA92731E18089A00F1FE4C /* hotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EA92721E18089A00F1FE4C /* hotViewController.swift */; };
+		D3EA92751E18098400F1FE4C /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EA92741E18098400F1FE4C /* homeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50605824D943800692E22685 /* Pods_letbo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_letbo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55712B2E3F6C8D173E839668 /* Pods-letbo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-letbo.release.xcconfig"; path = "Pods/Target Support Files/Pods-letbo/Pods-letbo.release.xcconfig"; sourceTree = "<group>"; };
+		D36E78E31E1583FF004F41C6 /* letbo-bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "letbo-bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		D3833F851E156A590036A5F3 /* letbo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = letbo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3833F881E156A590036A5F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3833F8A1E156A590036A5F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3833F8D1E156A590036A5F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3833F8F1E156A590036A5F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3833F921E156A590036A5F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3833F941E156A590036A5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D38C3B381E1C10CF00E77572 /* weiboDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = weiboDelegate.swift; sourceTree = "<group>"; };
+		D3BD2BEA1E19626C00D44A54 /* testViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+		D3EA92701E18089100F1FE4C /* feedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = feedViewController.swift; sourceTree = "<group>"; };
+		D3EA92721E18089A00F1FE4C /* hotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hotViewController.swift; sourceTree = "<group>"; };
+		D3EA92741E18098400F1FE4C /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		F0EF19882B626CF10C9367FA /* Pods-letbo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-letbo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-letbo/Pods-letbo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3833F821E156A590036A5F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9838B83AD128ECD3EC94A107 /* Pods_letbo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B561E3F6FB505A7ACC19B104 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50605824D943800692E22685 /* Pods_letbo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6A34BC3960961FD44EF552B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0EF19882B626CF10C9367FA /* Pods-letbo.debug.xcconfig */,
+				55712B2E3F6C8D173E839668 /* Pods-letbo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3833F7C1E156A580036A5F3 = {
+			isa = PBXGroup;
+			children = (
+				D3833F871E156A590036A5F3 /* letbo */,
+				D3833F861E156A590036A5F3 /* Products */,
+				B6A34BC3960961FD44EF552B /* Pods */,
+				B561E3F6FB505A7ACC19B104 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D3833F861E156A590036A5F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3833F851E156A590036A5F3 /* letbo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3833F871E156A590036A5F3 /* letbo */ = {
+			isa = PBXGroup;
+			children = (
+				D36E78E31E1583FF004F41C6 /* letbo-bridging-Header.h */,
+				D3833F881E156A590036A5F3 /* AppDelegate.swift */,
+				D3833F8A1E156A590036A5F3 /* ViewController.swift */,
+				D3833F8C1E156A590036A5F3 /* Main.storyboard */,
+				D3833F8F1E156A590036A5F3 /* Assets.xcassets */,
+				D3833F911E156A590036A5F3 /* LaunchScreen.storyboard */,
+				D3833F941E156A590036A5F3 /* Info.plist */,
+				D3EA92701E18089100F1FE4C /* feedViewController.swift */,
+				D3EA92721E18089A00F1FE4C /* hotViewController.swift */,
+				D3EA92741E18098400F1FE4C /* homeViewController.swift */,
+				D3BD2BEA1E19626C00D44A54 /* testViewController.swift */,
+				D38C3B381E1C10CF00E77572 /* weiboDelegate.swift */,
+			);
+			path = letbo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3833F841E156A590036A5F3 /* letbo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3833F971E156A590036A5F3 /* Build configuration list for PBXNativeTarget "letbo" */;
+			buildPhases = (
+				C9CF03CA33787BCE78E4F25F /* [CP] Check Pods Manifest.lock */,
+				D3833F811E156A590036A5F3 /* Sources */,
+				D3833F821E156A590036A5F3 /* Frameworks */,
+				D3833F831E156A590036A5F3 /* Resources */,
+				67C152C74E431B9C779E0106 /* [CP] Embed Pods Frameworks */,
+				25AC60937D0E5CA5C3DF4FA0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = letbo;
+			productName = letbo;
+			productReference = D3833F851E156A590036A5F3 /* letbo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3833F7D1E156A580036A5F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = bestn1nja;
+				TargetAttributes = {
+					D3833F841E156A590036A5F3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T39TLEA8YT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D3833F801E156A580036A5F3 /* Build configuration list for PBXProject "letbo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3833F7C1E156A580036A5F3;
+			productRefGroup = D3833F861E156A590036A5F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3833F841E156A590036A5F3 /* letbo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3833F831E156A590036A5F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3833F931E156A590036A5F3 /* LaunchScreen.storyboard in Resources */,
+				D3833F901E156A590036A5F3 /* Assets.xcassets in Resources */,
+				D3833F8E1E156A590036A5F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25AC60937D0E5CA5C3DF4FA0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-letbo/Pods-letbo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67C152C74E431B9C779E0106 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-letbo/Pods-letbo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9CF03CA33787BCE78E4F25F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3833F811E156A590036A5F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BD2BEB1E19626C00D44A54 /* testViewController.swift in Sources */,
+				D3833F8B1E156A590036A5F3 /* ViewController.swift in Sources */,
+				D38C3B391E1C10CF00E77572 /* weiboDelegate.swift in Sources */,
+				D3EA92751E18098400F1FE4C /* homeViewController.swift in Sources */,
+				D3833F891E156A590036A5F3 /* AppDelegate.swift in Sources */,
+				D3EA92731E18089A00F1FE4C /* hotViewController.swift in Sources */,
+				D3EA92711E18089100F1FE4C /* feedViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3833F8C1E156A590036A5F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3833F8D1E156A590036A5F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3833F911E156A590036A5F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3833F921E156A590036A5F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3833F951E156A590036A5F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3833F961E156A590036A5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3833F981E156A590036A5F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0EF19882B626CF10C9367FA /* Pods-letbo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = T39TLEA8YT;
+				INFOPLIST_FILE = letbo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mr0x16.letbo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "letbo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D3833F991E156A590036A5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55712B2E3F6C8D173E839668 /* Pods-letbo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = T39TLEA8YT;
+				INFOPLIST_FILE = letbo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mr0x16.letbo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "letbo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3833F801E156A580036A5F3 /* Build configuration list for PBXProject "letbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3833F951E156A590036A5F3 /* Debug */,
+				D3833F961E156A590036A5F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3833F971E156A590036A5F3 /* Build configuration list for PBXNativeTarget "letbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3833F981E156A590036A5F3 /* Debug */,
+				D3833F991E156A590036A5F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3833F7D1E156A580036A5F3 /* Project object */;
+}

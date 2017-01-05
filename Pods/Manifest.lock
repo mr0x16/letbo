@@ -1,0 +1,49 @@
+PODS:
+  - Alamofire (4.2.0)
+  - KeychainAccess (3.0.1)
+  - ReactiveCocoa (5.0.0-rc.1):
+    - ReactiveSwift (~> 1.0.0-rc.3)
+  - ReactiveSwift (1.0.0):
+    - Result (~> 3.1)
+  - Result (3.1.0)
+  - SnapKit (3.1.2)
+  - Spring (1.0.3)
+  - SwiftyBeaver (1.1.1)
+  - SwiftyJSON (3.1.3)
+  - WeiboSDK (3.1.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.2.0)
+  - KeychainAccess
+  - ReactiveCocoa (~> 5.0.0-rc.1)
+  - SnapKit (~> 3.1.2)
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
+  - SwiftyBeaver
+  - SwiftyJSON
+  - WeiboSDK (~> 3.1.3)
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift3
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 3a9227c6e9157e7b47f5ac1ee5abab2a56b50002
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  KeychainAccess: 017ea25e313a49eda10bb19b0bb0760fb1edfe1a
+  ReactiveCocoa: 3e9cad4b77fa199d41e03f603cb55d0701ad6ad8
+  ReactiveSwift: f391724ee318a2cfd3e37dfb041cd49ecf4e7869
+  Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
+  SnapKit: 12b24f569cb7c143acc9c22b9d91b23e7b1c84a2
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftyBeaver: 2b68694df862381235e32bcfc4ec991e26bf131d
+  SwiftyJSON: 38a8ea2006779c0fc4c310cb2ee8195327740faf
+  WeiboSDK: acb067053668102cf07d01aa7604350162c2e466
+
+PODFILE CHECKSUM: 93185533d9018aa9bab4886a41894c9ab78eff6a
+
+COCOAPODS: 1.1.1
