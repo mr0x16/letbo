@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Spring/Spring.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Intermediates/Pods.build/Debug-iphonesimulator/Spring.build/unextended-module.modulemap',
+    }]
+  }]
+}

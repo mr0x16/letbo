@@ -13,13 +13,13 @@ import SwiftyBeaver
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    let weiboAppKey = "468847591"
+    static let weiboAppKey = "468847591"
     var beginView = UIViewController()
     let console = ConsoleDestination()
     let log = SwiftyBeaver.self
     
-    let env = "TEST"
-//    let env = "PRD"
+//    let env = "TEST"
+    let env = "PRD"
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -30,8 +30,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         log.addDestination(console)
         window?.rootViewController = beginView
-        WeiboSDK.enableDebugMode(true)
-        WeiboSDK.registerApp(weiboAppKey)
+        WeiboSDK.enableDebugMode(false)
+        WeiboSDK.registerApp(AppDelegate.weiboAppKey)
 //        let homeDirectory = NSHomeDirectory()
 //        NSLog(homeDirectory)
 

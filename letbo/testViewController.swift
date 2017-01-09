@@ -10,6 +10,8 @@ import UIKit
 import SnapKit
 import ReactiveSwift
 import SwiftyBeaver
+import Alamofire
+import SwiftyJSON
 
 class testViewController: UIViewController {
 
@@ -35,7 +37,7 @@ class testViewController: UIViewController {
             make.height.equalTo(viewFrame.height/10)
         }
         authorizeButton.reactive.controlEvents(.touchUpInside).observe { (event) in
-            self.log.info("authorize is success")
+            self.log.info("authorize is start")
             let request = WBAuthorizeRequest.request() as?  WBAuthorizeRequest
             request?.redirectURI = "https://api.weibo.com/oauth2/default.html"
             request?.scope = "all"
@@ -54,10 +56,27 @@ class testViewController: UIViewController {
             make.bottom.equalTo(authorizeButton.snp.bottom)
             make.width.equalTo(authorizeButton.snp.width)
         }
+        feedlistButton.reactive.controlEvents(.touchUpInside).observe { (event) in
+            self.log.info("feedlist is start")
+            let param = ["access_token":myKeychain.getKeychain(key: "access_Token")! as String]
+            let httpThread = DispatchQueue.global(qos: .default)
+            
+            weiboGetRequest.mrRequest(api: "statuses/home_timeline.json", parameter: param).responseJSON(queue: httpThread ,completionHandler: { (response) in
+                switch response.result {
+                case .success(let value):
+                    let json = JSON(value)
+                    self.log.info(json["statuses"].count)
+                    self.log.info(json)
+                    break
+                case .failure(let error):
+                    self.log.error(error)
+                }
+//                self.log.info(JSON(data: response.data!).rawString())
+//                self.log.info(JSON(data: response.data!)["error"])
+            })
+            
+        }
         
-        
-        
-//        authorizeButton.reactive.makeBindingTarget(on: SchedulerProtocol, <#T##action: (UIButton, U) -> Void##(UIButton, U) -> Void#>)
         // Do any additional setup after loading the view.
     }
 

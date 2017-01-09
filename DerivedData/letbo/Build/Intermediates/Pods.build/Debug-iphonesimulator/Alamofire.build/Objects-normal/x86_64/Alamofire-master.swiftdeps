@@ -1,0 +1,21 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "f5305c13df13a77a52d8e155d0065766"
+build_time: [537109330, 256939000]
+inputs:
+  "/Users/maxuesong/Documents/git/letbo/Pods/Alamofire/Source/AFError.swift": [536344102, 0]
+  "/Users/maxuesong/Documents/git/letbo/Pods/Alamofire/Source/Alamofire.swift": [536344102, 0]
+  "/Users/maxuesong/Documents/git/letbo/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [536344102, 0]
+  "/Users/maxuesong/Documents/git/letbo/Pods/Alamofire/Source/MultipartFormData.swift": [536344102, 0]
+  "/Users/maxuesong/Documents/git/letbo/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [536344102, 0]
+  "/Users/maxuesong/Documents/git/letbo/Pods/Alamofire/Source/Notifications.swift": [536344102, 0]
+  "/Users/maxuesong/Documents/git/letbo/Pods/Alamofire/Source/ParameterEncoding.swift": [536344102, 0]
+  "/Users/maxuesong/Documents/git/letbo/Pods/Alamofire/Source/Request.swift": [536344102, 0]
+  "/Users/maxuesong/Documents/git/letbo/Pods/Alamofire/Source/Response.swift": [536344102, 0]
+  "/Users/maxuesong/Documents/git/letbo/Pods/Alamofire/Source/ResponseSerialization.swift": [536344102, 0]
+  "/Users/maxuesong/Documents/git/letbo/Pods/Alamofire/Source/Result.swift": [536344102, 0]
+  "/Users/maxuesong/Documents/git/letbo/Pods/Alamofire/Source/ServerTrustPolicy.swift": [536344102, 0]
+  "/Users/maxuesong/Documents/git/letbo/Pods/Alamofire/Source/SessionDelegate.swift": [536344102, 0]
+  "/Users/maxuesong/Documents/git/letbo/Pods/Alamofire/Source/SessionManager.swift": [536344102, 0]
+  "/Users/maxuesong/Documents/git/letbo/Pods/Alamofire/Source/TaskDelegate.swift": [536344102, 0]
+  "/Users/maxuesong/Documents/git/letbo/Pods/Alamofire/Source/Timeline.swift": [536344102, 0]
+  "/Users/maxuesong/Documents/git/letbo/Pods/Alamofire/Source/Validation.swift": [536344102, 0]

@@ -1,0 +1,265 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["V13ReactiveSwift8Reactive", ""]
+- ["V13ReactiveSwift8Reactive", "text"]
+- ["V13ReactiveSwift8Reactive", "textValues"]
+- ["V13ReactiveSwift8Reactive", "continuousTextValues"]
+- ["V13ReactiveSwift8Reactive", "attributedText"]
+- ["V13ReactiveSwift8Reactive", "attributedTextValues"]
+- ["V13ReactiveSwift8Reactive", "continuousAttributedTextValues"]
+provides-dynamic-lookup:
+depends-top-level:
+- "UITextView"
+- "Reactive"
+- !private "NSNotification"
+- "Signal"
+- "NoError"
+- "NSAttributedString"
+- !private "CastingPrecedence"
+- !private "AssignmentPrecedence"
+- "BindingTarget"
+- "String"
+- !private "NotificationCenter"
+depends-member:
+- !private ["Ps9AnyObject", "Error"]
+- !private ["Ps9AnyObject", "Name"]
+- !private ["Ps9AnyObject", "Value"]
+- !private ["Ps9AnyObject", "attributedText"]
+- !private ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "map"]
+- !private ["Ps9AnyObject", "reactive"]
+- !private ["Ps9AnyObject", "take"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "Error"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "Value"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "map"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "take"]
+- ["C13ReactiveSwift13BindingTarget", "deinit"]
+- !private ["PSo15CALayerDelegate", "attributedText"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["Ps7CVarArg", "Name"]
+- !private ["Ps7CVarArg", "attributedText"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "reactive"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps10Comparable", "UITextViewTextDidChange"]
+- !private ["Ps10Comparable", "UITextViewTextDidEndEditing"]
+- !private ["Ps28CustomDebugStringConvertible", "Name"]
+- !private ["Ps28CustomDebugStringConvertible", "attributedText"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "object"]
+- !private ["Ps28CustomDebugStringConvertible", "reactive"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps17CustomReflectable", "object"]
+- !private ["Ps23CustomStringConvertible", "Name"]
+- !private ["Ps23CustomStringConvertible", "attributedText"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "object"]
+- !private ["Ps23CustomStringConvertible", "reactive"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps9Equatable", "Name"]
+- !private ["Ps9Equatable", "UITextViewTextDidChange"]
+- !private ["Ps9Equatable", "UITextViewTextDidEndEditing"]
+- !private ["Ps9Equatable", "attributedText"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "object"]
+- !private ["Ps9Equatable", "reactive"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps8Hashable", "Name"]
+- !private ["Ps8Hashable", "UITextViewTextDidChange"]
+- !private ["Ps8Hashable", "UITextViewTextDidEndEditing"]
+- !private ["Ps8Hashable", "attributedText"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "object"]
+- !private ["Ps8Hashable", "reactive"]
+- !private ["Ps8Hashable", "text"]
+- !private ["C13ReactiveSwift8Lifetime", "deinit"]
+- !private ["PSo8NSCoding", "Name"]
+- !private ["PSo8NSCoding", "attributedText"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo9NSCopying", "Name"]
+- !private ["CSo14NSNotification", "Name"]
+- !private ["CSo8NSObject", "Name"]
+- !private ["CSo8NSObject", "attributedText"]
+- !private ["CSo8NSObject", "default"]
+- !private ["CSo8NSObject", "reactive"]
+- !private ["CSo8NSObject", "text"]
+- !private ["PSo16NSObjectProtocol", "Name"]
+- !private ["PSo16NSObjectProtocol", "attributedText"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "reactive"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["VCSo14NSNotification4Name", "UITextViewTextDidChange"]
+- !private ["VCSo14NSNotification4Name", "UITextViewTextDidEndEditing"]
+- ["VCSo14NSNotification4Name", "deinit"]
+- !private ["V10Foundation12Notification", "deinit"]
+- !private ["V10Foundation12Notification", "object"]
+- !private ["CSo18NotificationCenter", "default"]
+- !private ["CSo18NotificationCenter", "deinit"]
+- !private ["CSo18NotificationCenter", "reactive"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "UITextViewTextDidChange"]
+- !private ["Ps16RawRepresentable", "UITextViewTextDidEndEditing"]
+- ["V13ReactiveSwift8Reactive", "BindingTarget"]
+- ["V13ReactiveSwift8Reactive", "NSAttributedString"]
+- !private ["V13ReactiveSwift8Reactive", "NSNotification"]
+- ["V13ReactiveSwift8Reactive", "NoError"]
+- !private ["V13ReactiveSwift8Reactive", "NotificationCenter"]
+- ["V13ReactiveSwift8Reactive", "Signal"]
+- ["V13ReactiveSwift8Reactive", "String"]
+- ["V13ReactiveSwift8Reactive", "UITextView"]
+- ["V13ReactiveSwift8Reactive", "attributedText"]
+- ["V13ReactiveSwift8Reactive", "attributedTextValues"]
+- !private ["V13ReactiveSwift8Reactive", "base"]
+- ["V13ReactiveSwift8Reactive", "continuousAttributedTextValues"]
+- ["V13ReactiveSwift8Reactive", "continuousTextValues"]
+- ["V13ReactiveSwift8Reactive", "deinit"]
+- !private ["V13ReactiveSwift8Reactive", "lifetime"]
+- !private ["V13ReactiveSwift8Reactive", "makeBindingTarget"]
+- !private ["V13ReactiveSwift8Reactive", "notifications"]
+- ["V13ReactiveSwift8Reactive", "text"]
+- ["V13ReactiveSwift8Reactive", "textValues"]
+- !private ["P13ReactiveSwift26ReactiveExtensionsProvider", "Name"]
+- !private ["P13ReactiveSwift26ReactiveExtensionsProvider", "attributedText"]
+- !private ["P13ReactiveSwift26ReactiveExtensionsProvider", "default"]
+- !private ["P13ReactiveSwift26ReactiveExtensionsProvider", "reactive"]
+- !private ["P13ReactiveSwift26ReactiveExtensionsProvider", "text"]
+- !private ["P10Foundation20ReferenceConvertible", "object"]
+- !private ["C13ReactiveSwift6Signal", "Error"]
+- !private ["C13ReactiveSwift6Signal", "Value"]
+- ["C13ReactiveSwift6Signal", "deinit"]
+- !private ["C13ReactiveSwift6Signal", "map"]
+- !private ["C13ReactiveSwift6Signal", "take"]
+- !private ["P13ReactiveSwift14SignalProtocol", "Error"]
+- !private ["P13ReactiveSwift14SignalProtocol", "Value"]
+- !private ["P13ReactiveSwift14SignalProtocol", "map"]
+- !private ["P13ReactiveSwift14SignalProtocol", "take"]
+- !private ["PSo29UIAccessibilityIdentification", "attributedText"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "attributedText"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "attributedText"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "attributedText"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["PSo17UICoordinateSpace", "attributedText"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "attributedText"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "attributedText"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo11UIFocusItem", "attributedText"]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["PSo10UIKeyInput", "attributedText"]
+- !private ["PSo10UIKeyInput", "text"]
+- !private ["CSo11UIResponder", "attributedText"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "attributedText"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- !private ["CSo12UIScrollView", "attributedText"]
+- !private ["CSo12UIScrollView", "text"]
+- !private ["PSo11UITextInput", "attributedText"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "attributedText"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["CSo10UITextView", "attributedText"]
+- !private ["CSo10UITextView", "deinit"]
+- !private ["CSo10UITextView", "text"]
+- !private ["PSo18UITraitEnvironment", "attributedText"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["CSo6UIView", "attributedText"]
+- !private ["CSo6UIView", "text"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "attributedText"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "Name"]
+- !private ["Ps9_Hashable", "Name"]
+- !private ["Ps9_Hashable", "UITextViewTextDidChange"]
+- !private ["Ps9_Hashable", "UITextViewTextDidEndEditing"]
+- !private ["Ps9_Hashable", "attributedText"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "object"]
+- !private ["Ps9_Hashable", "reactive"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps21_ObjectiveCBridgeable", "UITextViewTextDidChange"]
+- !private ["Ps21_ObjectiveCBridgeable", "UITextViewTextDidEndEditing"]
+- !private ["Ps21_ObjectiveCBridgeable", "object"]
+- !private ["Ps20_SwiftNewtypeWrapper", "UITextViewTextDidChange"]
+- !private ["Ps20_SwiftNewtypeWrapper", "UITextViewTextDidEndEditing"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "P13ReactiveSwift21BindingSourceProtocol"
+- "C13ReactiveSwift13BindingTarget"
+- !private "PSo15CALayerDelegate"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- !private "C13ReactiveSwift8Lifetime"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo14NSNotification"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- "VCSo14NSNotification4Name"
+- !private "V10Foundation12Notification"
+- !private "CSo18NotificationCenter"
+- !private "Sq"
+- !private "Ps16RawRepresentable"
+- "V13ReactiveSwift8Reactive"
+- !private "P13ReactiveSwift26ReactiveExtensionsProvider"
+- !private "P10Foundation20ReferenceConvertible"
+- "C13ReactiveSwift6Signal"
+- !private "P13ReactiveSwift14SignalProtocol"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "PSo10UIKeyInput"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "CSo12UIScrollView"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- !private "CSo10UITextView"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/Pods/ReactiveCocoa/ReactiveCocoa/ObjCRuntimeAliases.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/ReactiveCocoa/ReactiveCocoa/ReactiveCocoa.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Modules/ReactiveSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Headers/ReactiveSwift-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Intermediates/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "201263c28e4bbfa7413a7c714c4b154e"

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9838B83AD128ECD3EC94A107 /* Pods_letbo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50605824D943800692E22685 /* Pods_letbo.framework */; };
+		D32DC6C01E20991800B981A5 /* myKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32DC6BE1E2098F300B981A5 /* myKeychain.swift */; };
+		D37F41D61E211F0000417E01 /* weiboGetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37F41D51E211F0000417E01 /* weiboGetRequest.swift */; };
 		D3833F891E156A590036A5F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3833F881E156A590036A5F3 /* AppDelegate.swift */; };
 		D3833F8B1E156A590036A5F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3833F8A1E156A590036A5F3 /* ViewController.swift */; };
 		D3833F8E1E156A590036A5F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3833F8C1E156A590036A5F3 /* Main.storyboard */; };
@@ -23,7 +25,9 @@
 /* Begin PBXFileReference section */
 		50605824D943800692E22685 /* Pods_letbo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_letbo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55712B2E3F6C8D173E839668 /* Pods-letbo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-letbo.release.xcconfig"; path = "Pods/Target Support Files/Pods-letbo/Pods-letbo.release.xcconfig"; sourceTree = "<group>"; };
+		D32DC6BE1E2098F300B981A5 /* myKeychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myKeychain.swift; sourceTree = "<group>"; };
 		D36E78E31E1583FF004F41C6 /* letbo-bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "letbo-bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		D37F41D51E211F0000417E01 /* weiboGetRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = weiboGetRequest.swift; sourceTree = "<group>"; };
 		D3833F851E156A590036A5F3 /* letbo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = letbo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3833F881E156A590036A5F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3833F8A1E156A590036A5F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +93,7 @@
 		D3833F871E156A590036A5F3 /* letbo */ = {
 			isa = PBXGroup;
 			children = (
+				D32DC6BE1E2098F300B981A5 /* myKeychain.swift */,
 				D36E78E31E1583FF004F41C6 /* letbo-bridging-Header.h */,
 				D3833F881E156A590036A5F3 /* AppDelegate.swift */,
 				D3833F8A1E156A590036A5F3 /* ViewController.swift */,
@@ -101,6 +106,7 @@
 				D3EA92741E18098400F1FE4C /* homeViewController.swift */,
 				D3BD2BEA1E19626C00D44A54 /* testViewController.swift */,
 				D38C3B381E1C10CF00E77572 /* weiboDelegate.swift */,
+				D37F41D51E211F0000417E01 /* weiboGetRequest.swift */,
 			);
 			path = letbo;
 			sourceTree = "<group>";
@@ -229,12 +235,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32DC6C01E20991800B981A5 /* myKeychain.swift in Sources */,
 				D3BD2BEB1E19626C00D44A54 /* testViewController.swift in Sources */,
 				D3833F8B1E156A590036A5F3 /* ViewController.swift in Sources */,
 				D38C3B391E1C10CF00E77572 /* weiboDelegate.swift in Sources */,
 				D3EA92751E18098400F1FE4C /* homeViewController.swift in Sources */,
 				D3833F891E156A590036A5F3 /* AppDelegate.swift in Sources */,
 				D3EA92731E18089A00F1FE4C /* hotViewController.swift in Sources */,
+				D37F41D61E211F0000417E01 /* weiboGetRequest.swift in Sources */,
 				D3EA92711E18089100F1FE4C /* feedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

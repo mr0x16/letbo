@@ -18,8 +18,12 @@ class ViewController: UIViewController,UITabBarDelegate {
     let HOME = "home"
     let titleLabel = UILabel()
     let navigationBar = UINavigationBar()
+    let tabbar = UITabBar()
+    let tabItem1 = UITabBarItem()
+    let tabItem2 = UITabBarItem()
+    let tabItem3 = UITabBarItem()
     var context = UIViewController()
-    
+    var currentView:UIViewController? = nil
     
     //将日志输出到swiftBeaver中
     let log = SwiftyBeaver.self
@@ -28,7 +32,7 @@ class ViewController: UIViewController,UITabBarDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let tabbar = UITabBar()
+        
         view.backgroundColor = UIColor.white
         tabbar.delegate = self
         
@@ -62,22 +66,16 @@ class ViewController: UIViewController,UITabBarDelegate {
             make.height.equalTo(50)
         }
         
-        let tabItem1 = UITabBarItem()
         tabItem1.title = FEEDLIST
         tabItem1.tag = 0
-        let tabItem2 = UITabBarItem()
-        tabItem2.tag = 1
         tabItem2.title = HOTLIST
-        let tabItem3 = UITabBarItem()
+        tabItem2.tag = 1
         tabItem3.title = HOME
-        tabItem3.tag = 3
+        tabItem3.tag = 2
         let tabItems = [tabItem1,tabItem2,tabItem3]
         tabbar.items = tabItems;
-        tabbar.selectedItem = tabItem1
         
-        
-        
-        
+        initFirstShow()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -127,6 +125,20 @@ class ViewController: UIViewController,UITabBarDelegate {
     }
     
     
+    func initFirstShow() {
+        tabbar.selectedItem = tabItem1
+        context = viewControllerProduct(vcType: (tabbar.selectedItem?.title)!)
+        
+        let contextRect  = CGRect(x: 0, y: 80, width: view.frame.width, height: view.frame.height-130)
+        replaceViewController(nextVC: context, showFrame: contextRect, complate: { (res) in
+            guard res == true else {
+                log.error(NSStringFromClass(context.classForCoder) + "not show")
+                return
+            }
+            log.info(NSStringFromClass(context.classForCoder) + "have show"+"\n")
+            return
+        })
+    }
     
     /// 切换填充视图的方法
     ///
@@ -140,10 +152,16 @@ class ViewController: UIViewController,UITabBarDelegate {
             complate(false)
             return
         }
+        //先对当前显示的内容进行移除
+        if currentView != nil {
+            currentView!.view.removeFromSuperview()
+        }
+        
+        //添加需要显示的内容
         context.view.frame = showFrame
         view.addSubview(context.view)
-        self.addChildViewController(context)
-        
+//        self.addChildViewController(context)
+        currentView = nextVC!
         complate(true)
     }
 }

@@ -9,10 +9,16 @@
 import UIKit
 
 
-class feedViewController: UIViewController {
-
+class feedViewController: UIViewController {//,UITableViewDelegate,UITableViewDataSource {
+    
+    let feedList = UITableView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.addSubview(feedList)
+        feedList.snp.makeConstraints { (make) in
+            make.edges.equalTo(view.snp.edges)
+        }
         
         // Do any additional setup after loading the view.
     }
@@ -22,7 +28,12 @@ class feedViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+//    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+//        <#code#>
+//    }
+    
+    
+    
     /*
     // MARK: - Navigation
 

@@ -1,0 +1,382 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "weiboDelegate"
+provides-nominal:
+- "C5letbo13weiboDelegate"
+provides-member:
+- ["C5letbo13weiboDelegate", ""]
+provides-dynamic-lookup:
+- "countAuthorize"
+- "didReceiveWeiboResponse"
+- "didReceiveWeiboRequest"
+depends-top-level:
+- !private "String"
+- "weiboDelegate"
+- !private "~="
+- !private "myKeychain"
+- !private "NSStringFromClass"
+- "CastingPrecedence"
+- "SwiftyBeaver"
+- !private "WBAuthorizeResponse"
+- "NSObject"
+- !private "StringLiteralType"
+- !private "+"
+- "WBBaseResponse"
+- "WeiboSDKDelegate"
+- "ConsoleDestination"
+- "WBBaseRequest"
+depends-member:
+- ["Ps9AnyObject", "ConsoleDestination"]
+- !private ["Ps9AnyObject", "NSStringFromClass"]
+- ["Ps9AnyObject", "SwiftyBeaver"]
+- !private ["Ps9AnyObject", "accessToken"]
+- !private ["Ps9AnyObject", "addDestination"]
+- !private ["Ps9AnyObject", "classForCoder"]
+- ["Ps9AnyObject", "console"]
+- ["Ps9AnyObject", "countAuthorize"]
+- ["Ps9AnyObject", "didReceiveWeiboRequest"]
+- ["Ps9AnyObject", "didReceiveWeiboResponse"]
+- !private ["Ps9AnyObject", "getKeychain"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "log"]
+- !private ["Ps9AnyObject", "myKeychain"]
+- !private ["Ps9AnyObject", "setKeychain"]
+- !private ["Ps9AnyObject", "verbose"]
+- ["Ps9AnyObject", ""]
+- ["C12SwiftyBeaver15BaseDestination", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["Ps7CVarArg", "ConsoleDestination"]
+- !private ["Ps7CVarArg", "NSStringFromClass"]
+- ["Ps7CVarArg", "SwiftyBeaver"]
+- !private ["Ps7CVarArg", "accessToken"]
+- !private ["Ps7CVarArg", "classForCoder"]
+- ["Ps7CVarArg", "console"]
+- ["Ps7CVarArg", "countAuthorize"]
+- ["Ps7CVarArg", "didReceiveWeiboRequest"]
+- ["Ps7CVarArg", "didReceiveWeiboResponse"]
+- !private ["Ps7CVarArg", "getKeychain"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "log"]
+- !private ["Ps7CVarArg", "myKeychain"]
+- !private ["Ps7CVarArg", "setKeychain"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs11ClosedRange", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- ["C12SwiftyBeaver18ConsoleDestination", "deinit"]
+- ["C12SwiftyBeaver18ConsoleDestination", "init"]
+- !private ["Vs20CountableClosedRange", "deinit"]
+- !private ["Vs14CountableRange", "deinit"]
+- ["Ps28CustomDebugStringConvertible", "ConsoleDestination"]
+- !private ["Ps28CustomDebugStringConvertible", "NSStringFromClass"]
+- ["Ps28CustomDebugStringConvertible", "SwiftyBeaver"]
+- !private ["Ps28CustomDebugStringConvertible", "accessToken"]
+- !private ["Ps28CustomDebugStringConvertible", "classForCoder"]
+- ["Ps28CustomDebugStringConvertible", "console"]
+- ["Ps28CustomDebugStringConvertible", "countAuthorize"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveWeiboRequest"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveWeiboResponse"]
+- !private ["Ps28CustomDebugStringConvertible", "getKeychain"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "log"]
+- !private ["Ps28CustomDebugStringConvertible", "myKeychain"]
+- !private ["Ps28CustomDebugStringConvertible", "setKeychain"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "ConsoleDestination"]
+- !private ["Ps23CustomStringConvertible", "NSStringFromClass"]
+- ["Ps23CustomStringConvertible", "SwiftyBeaver"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "accessToken"]
+- !private ["Ps23CustomStringConvertible", "classForCoder"]
+- ["Ps23CustomStringConvertible", "console"]
+- ["Ps23CustomStringConvertible", "countAuthorize"]
+- ["Ps23CustomStringConvertible", "didReceiveWeiboRequest"]
+- ["Ps23CustomStringConvertible", "didReceiveWeiboResponse"]
+- !private ["Ps23CustomStringConvertible", "getKeychain"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "log"]
+- !private ["Ps23CustomStringConvertible", "myKeychain"]
+- !private ["Ps23CustomStringConvertible", "setKeychain"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "ConsoleDestination"]
+- !private ["Ps9Equatable", "NSStringFromClass"]
+- ["Ps9Equatable", "SwiftyBeaver"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "accessToken"]
+- !private ["Ps9Equatable", "classForCoder"]
+- ["Ps9Equatable", "console"]
+- ["Ps9Equatable", "countAuthorize"]
+- ["Ps9Equatable", "didReceiveWeiboRequest"]
+- ["Ps9Equatable", "didReceiveWeiboResponse"]
+- !private ["Ps9Equatable", "getKeychain"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "log"]
+- !private ["Ps9Equatable", "myKeychain"]
+- !private ["Ps9Equatable", "setKeychain"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "ConsoleDestination"]
+- !private ["Ps8Hashable", "NSStringFromClass"]
+- ["Ps8Hashable", "SwiftyBeaver"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "accessToken"]
+- !private ["Ps8Hashable", "classForCoder"]
+- ["Ps8Hashable", "console"]
+- ["Ps8Hashable", "countAuthorize"]
+- ["Ps8Hashable", "didReceiveWeiboRequest"]
+- ["Ps8Hashable", "didReceiveWeiboResponse"]
+- !private ["Ps8Hashable", "getKeychain"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "log"]
+- !private ["Ps8Hashable", "myKeychain"]
+- !private ["Ps8Hashable", "setKeychain"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["Si", "deinit"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "ConsoleDestination"]
+- !private ["CSo8NSObject", "NSStringFromClass"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "SwiftyBeaver"]
+- !private ["CSo8NSObject", "WBAuthorizeResponse"]
+- ["CSo8NSObject", "WBBaseRequest"]
+- ["CSo8NSObject", "WBBaseResponse"]
+- !private ["CSo8NSObject", "accessToken"]
+- !private ["CSo8NSObject", "classForCoder"]
+- ["CSo8NSObject", "console"]
+- ["CSo8NSObject", "countAuthorize"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "didReceiveWeiboRequest"]
+- ["CSo8NSObject", "didReceiveWeiboResponse"]
+- !private ["CSo8NSObject", "getKeychain"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "log"]
+- !private ["CSo8NSObject", "myKeychain"]
+- !private ["CSo8NSObject", "setKeychain"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "ConsoleDestination"]
+- !private ["PSo16NSObjectProtocol", "NSStringFromClass"]
+- ["PSo16NSObjectProtocol", "SwiftyBeaver"]
+- !private ["PSo16NSObjectProtocol", "accessToken"]
+- !private ["PSo16NSObjectProtocol", "classForCoder"]
+- ["PSo16NSObjectProtocol", "console"]
+- ["PSo16NSObjectProtocol", "countAuthorize"]
+- ["PSo16NSObjectProtocol", "didReceiveWeiboRequest"]
+- ["PSo16NSObjectProtocol", "didReceiveWeiboResponse"]
+- !private ["PSo16NSObjectProtocol", "getKeychain"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "log"]
+- !private ["PSo16NSObjectProtocol", "myKeychain"]
+- !private ["PSo16NSObjectProtocol", "setKeychain"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- !private ["Vs5Range", "deinit"]
+- ["P13ReactiveSwift26ReactiveExtensionsProvider", "ConsoleDestination"]
+- !private ["P13ReactiveSwift26ReactiveExtensionsProvider", "NSStringFromClass"]
+- ["P13ReactiveSwift26ReactiveExtensionsProvider", "SwiftyBeaver"]
+- !private ["P13ReactiveSwift26ReactiveExtensionsProvider", "accessToken"]
+- !private ["P13ReactiveSwift26ReactiveExtensionsProvider", "classForCoder"]
+- ["P13ReactiveSwift26ReactiveExtensionsProvider", "console"]
+- ["P13ReactiveSwift26ReactiveExtensionsProvider", "countAuthorize"]
+- ["P13ReactiveSwift26ReactiveExtensionsProvider", "didReceiveWeiboRequest"]
+- ["P13ReactiveSwift26ReactiveExtensionsProvider", "didReceiveWeiboResponse"]
+- !private ["P13ReactiveSwift26ReactiveExtensionsProvider", "getKeychain"]
+- ["P13ReactiveSwift26ReactiveExtensionsProvider", "init"]
+- ["P13ReactiveSwift26ReactiveExtensionsProvider", "log"]
+- !private ["P13ReactiveSwift26ReactiveExtensionsProvider", "myKeychain"]
+- !private ["P13ReactiveSwift26ReactiveExtensionsProvider", "setKeychain"]
+- ["P13ReactiveSwift26ReactiveExtensionsProvider", ""]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["C12SwiftyBeaver12SwiftyBeaver", "addDestination"]
+- !private ["C12SwiftyBeaver12SwiftyBeaver", "verbose"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["P9Alamofire14URLConvertible", "init"]
+- !private ["CSo19WBAuthorizeResponse", "accessToken"]
+- ["CSo19WBAuthorizeResponse", "deinit"]
+- !private ["CSo14WBBaseResponse", "accessToken"]
+- !private ["CSo14WBBaseResponse", "classForCoder"]
+- !private ["CSo20WBDataTransferObject", "accessToken"]
+- !private ["CSo20WBDataTransferObject", "classForCoder"]
+- ["PSo16WeiboSDKDelegate", "ConsoleDestination"]
+- !private ["PSo16WeiboSDKDelegate", "NSStringFromClass"]
+- ["PSo16WeiboSDKDelegate", "SwiftyBeaver"]
+- !private ["PSo16WeiboSDKDelegate", "console"]
+- ["PSo16WeiboSDKDelegate", "didReceiveWeiboRequest"]
+- ["PSo16WeiboSDKDelegate", "didReceiveWeiboResponse"]
+- !private ["PSo16WeiboSDKDelegate", "log"]
+- !private ["PSo16WeiboSDKDelegate", "myKeychain"]
+- ["PSo16WeiboSDKDelegate", ""]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "ConsoleDestination"]
+- !private ["Ps9_Hashable", "NSStringFromClass"]
+- ["Ps9_Hashable", "SwiftyBeaver"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "accessToken"]
+- !private ["Ps9_Hashable", "classForCoder"]
+- ["Ps9_Hashable", "console"]
+- ["Ps9_Hashable", "countAuthorize"]
+- ["Ps9_Hashable", "didReceiveWeiboRequest"]
+- ["Ps9_Hashable", "didReceiveWeiboResponse"]
+- !private ["Ps9_Hashable", "getKeychain"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "log"]
+- !private ["Ps9_Hashable", "myKeychain"]
+- !private ["Ps9_Hashable", "setKeychain"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["C5letbo10myKeychain", "getKeychain"]
+- !private ["C5letbo10myKeychain", "setKeychain"]
+- ["C5letbo13weiboDelegate", "ConsoleDestination"]
+- !private ["C5letbo13weiboDelegate", "NSStringFromClass"]
+- !private ["C5letbo13weiboDelegate", "String"]
+- ["C5letbo13weiboDelegate", "SwiftyBeaver"]
+- !private ["C5letbo13weiboDelegate", "WBAuthorizeResponse"]
+- ["C5letbo13weiboDelegate", "WBBaseRequest"]
+- ["C5letbo13weiboDelegate", "WBBaseResponse"]
+- ["C5letbo13weiboDelegate", "console"]
+- ["C5letbo13weiboDelegate", "countAuthorize"]
+- ["C5letbo13weiboDelegate", "deinit"]
+- ["C5letbo13weiboDelegate", "didReceiveWeiboRequest"]
+- ["C5letbo13weiboDelegate", "didReceiveWeiboResponse"]
+- ["C5letbo13weiboDelegate", "init"]
+- ["C5letbo13weiboDelegate", "log"]
+- !private ["C5letbo13weiboDelegate", "myKeychain"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C12SwiftyBeaver15BaseDestination"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Vs11ClosedRange"
+- !private "Ps10Comparable"
+- "C12SwiftyBeaver18ConsoleDestination"
+- !private "Vs20CountableClosedRange"
+- !private "Vs14CountableRange"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "SQ"
+- "Si"
+- !private "P10SwiftyJSON17JSONSubscriptType"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- !private "Vs5Range"
+- "P13ReactiveSwift26ReactiveExtensionsProvider"
+- "SS"
+- !private "C12SwiftyBeaver12SwiftyBeaver"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "P9Alamofire14URLConvertible"
+- "CSo19WBAuthorizeResponse"
+- !private "CSo14WBBaseResponse"
+- !private "CSo20WBDataTransferObject"
+- "PSo16WeiboSDKDelegate"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "C5letbo10myKeychain"
+- "C5letbo13weiboDelegate"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/letbo-Bridging-Header.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Headers/Public/WeiboSDK/WeiboSDK.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Headers/Public/WeiboSDK/WBHttpRequest.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Headers/Public/WeiboSDK/WBHttpRequest+WeiboUser.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Headers/Public/WeiboSDK/WBHttpRequest+WeiboShare.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Headers/Public/WeiboSDK/WBHttpRequest+WeiboToken.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Headers/Public/WeiboSDK/WBHttpRequest+WeiboGame.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Headers/Public/WeiboSDK/WBSDKRelationshipButton.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Headers/Public/WeiboSDK/WBSDKBasicButton.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Headers/Public/WeiboSDK/WBSDKCommentButton.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Modules/KeychainAccess.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Modules/module.modulemap"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SwiftyBeaver/SwiftyBeaver.framework/Modules/SwiftyBeaver.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SwiftyBeaver/SwiftyBeaver.framework/Headers/SwiftyBeaver-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SwiftyBeaver/SwiftyBeaver.framework/Headers/SwiftyBeaver-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SwiftyBeaver/SwiftyBeaver.framework/Modules/module.modulemap"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Modules/ReactiveSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Headers/ReactiveSwift-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Headers/ReactiveSwift-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Modules/module.modulemap"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/module.modulemap"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveCocoa/ReactiveCocoa.framework/Modules/ReactiveCocoa.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveCocoa/ReactiveCocoa.framework/Headers/ReactiveCocoa-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveCocoa/ReactiveCocoa.framework/PrivateHeaders/ObjCRuntimeAliases.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveCocoa/ReactiveCocoa.framework/Headers/ReactiveCocoa.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveCocoa/ReactiveCocoa.framework/Modules/module.modulemap"
+interface-hash: "8be2680d39a923e439456240f0b2510d"

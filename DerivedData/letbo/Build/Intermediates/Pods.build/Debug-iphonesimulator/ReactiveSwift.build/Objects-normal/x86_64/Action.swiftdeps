@@ -1,0 +1,398 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Action"
+- "ActionProtocol"
+- "ActionError"
+- "=="
+provides-nominal:
+- "C13ReactiveSwift6Action"
+- "P13ReactiveSwift14ActionProtocol"
+- "O13ReactiveSwift11ActionError"
+provides-member:
+- ["C13ReactiveSwift6Action", ""]
+- ["P13ReactiveSwift14ActionProtocol", ""]
+- ["O13ReactiveSwift11ActionError", ""]
+- ["P13ReactiveSwift14ActionProtocol", "consume"]
+- ["P13ReactiveSwift14ActionProtocol", "init"]
+- ["P13ReactiveSwift14ActionProtocol", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Equatable"
+- "Lifetime"
+- "BooleanLiteralType"
+- "Signal"
+- "BindingTargetProtocol"
+- "ActionProtocol"
+- "PropertyProtocol"
+- "Action"
+- "Swift"
+- "=="
+- "Property"
+- "Bool"
+- "AssignmentPrecedence"
+- !private "CastingPrecedence"
+- "NoError"
+- "Event"
+- "SignalProducer"
+- "ActionError"
+- !private "!"
+- !private "Optional"
+- !private "&&"
+- "Void"
+- "ActionState"
+- !private "+="
+- "MutableProperty"
+- !private "!="
+depends-member:
+- ["C13ReactiveSwift6Action", "Action"]
+- ["C13ReactiveSwift6Action", "ActionError"]
+- ["C13ReactiveSwift6Action", "ActionState"]
+- ["C13ReactiveSwift6Action", "Bool"]
+- ["C13ReactiveSwift6Action", "Error"]
+- ["C13ReactiveSwift6Action", "Event"]
+- ["C13ReactiveSwift6Action", "Input"]
+- ["C13ReactiveSwift6Action", "Lifetime"]
+- ["C13ReactiveSwift6Action", "MutableProperty"]
+- ["C13ReactiveSwift6Action", "NoError"]
+- ["C13ReactiveSwift6Action", "Output"]
+- ["C13ReactiveSwift6Action", "Property"]
+- ["C13ReactiveSwift6Action", "PropertyProtocol"]
+- ["C13ReactiveSwift6Action", "Signal"]
+- ["C13ReactiveSwift6Action", "SignalProducer"]
+- ["C13ReactiveSwift6Action", "Value"]
+- ["C13ReactiveSwift6Action", "action"]
+- ["C13ReactiveSwift6Action", "apply"]
+- ["C13ReactiveSwift6Action", "completed"]
+- ["C13ReactiveSwift6Action", "consume"]
+- ["C13ReactiveSwift6Action", "deinit"]
+- !private ["C13ReactiveSwift6Action", "deinitToken"]
+- ["C13ReactiveSwift6Action", "disabledErrors"]
+- !private ["C13ReactiveSwift6Action", "disabledErrorsObserver"]
+- ["C13ReactiveSwift6Action", "errors"]
+- ["C13ReactiveSwift6Action", "events"]
+- !private ["C13ReactiveSwift6Action", "eventsObserver"]
+- !private ["C13ReactiveSwift6Action", "executeClosure"]
+- ["C13ReactiveSwift6Action", "init"]
+- ["C13ReactiveSwift6Action", "isEnabled"]
+- ["C13ReactiveSwift6Action", "isExecuting"]
+- ["C13ReactiveSwift6Action", "lifetime"]
+- !private ["C13ReactiveSwift6Action", "state"]
+- ["C13ReactiveSwift6Action", "values"]
+- ["O13ReactiveSwift11ActionError", "Error"]
+- ["O13ReactiveSwift11ActionError", "_code"]
+- ["O13ReactiveSwift11ActionError", "_domain"]
+- ["O13ReactiveSwift11ActionError", "_getEmbeddedNSError"]
+- ["O13ReactiveSwift11ActionError", "_userInfo"]
+- ["O13ReactiveSwift11ActionError", "deinit"]
+- ["O13ReactiveSwift11ActionError", "disabled"]
+- ["O13ReactiveSwift11ActionError", "producerFailed"]
+- ["P13ReactiveSwift14ActionProtocol", "Action"]
+- ["P13ReactiveSwift14ActionProtocol", "ActionError"]
+- !private ["P13ReactiveSwift14ActionProtocol", "ActionState"]
+- ["P13ReactiveSwift14ActionProtocol", "Bool"]
+- ["P13ReactiveSwift14ActionProtocol", "Error"]
+- ["P13ReactiveSwift14ActionProtocol", "Input"]
+- !private ["P13ReactiveSwift14ActionProtocol", "Lifetime"]
+- !private ["P13ReactiveSwift14ActionProtocol", "MutableProperty"]
+- !private ["P13ReactiveSwift14ActionProtocol", "Optional"]
+- ["P13ReactiveSwift14ActionProtocol", "Output"]
+- ["P13ReactiveSwift14ActionProtocol", "Property"]
+- ["P13ReactiveSwift14ActionProtocol", "PropertyProtocol"]
+- !private ["P13ReactiveSwift14ActionProtocol", "Signal"]
+- ["P13ReactiveSwift14ActionProtocol", "SignalProducer"]
+- ["P13ReactiveSwift14ActionProtocol", "Swift"]
+- ["P13ReactiveSwift14ActionProtocol", "Value"]
+- ["P13ReactiveSwift14ActionProtocol", "Void"]
+- ["P13ReactiveSwift14ActionProtocol", "action"]
+- ["P13ReactiveSwift14ActionProtocol", "apply"]
+- !private ["P13ReactiveSwift14ActionProtocol", "completed"]
+- ["P13ReactiveSwift14ActionProtocol", "consume"]
+- !private ["P13ReactiveSwift14ActionProtocol", "deinitToken"]
+- !private ["P13ReactiveSwift14ActionProtocol", "disabledErrors"]
+- !private ["P13ReactiveSwift14ActionProtocol", "disabledErrorsObserver"]
+- !private ["P13ReactiveSwift14ActionProtocol", "errors"]
+- !private ["P13ReactiveSwift14ActionProtocol", "events"]
+- !private ["P13ReactiveSwift14ActionProtocol", "eventsObserver"]
+- !private ["P13ReactiveSwift14ActionProtocol", "executeClosure"]
+- ["P13ReactiveSwift14ActionProtocol", "init"]
+- ["P13ReactiveSwift14ActionProtocol", "isEnabled"]
+- !private ["P13ReactiveSwift14ActionProtocol", "isExecuting"]
+- ["P13ReactiveSwift14ActionProtocol", "lifetime"]
+- !private ["P13ReactiveSwift14ActionProtocol", "state"]
+- !private ["P13ReactiveSwift14ActionProtocol", "values"]
+- ["P13ReactiveSwift14ActionProtocol", ""]
+- !private ["Ps9AnyObject", "ActionError"]
+- !private ["Ps9AnyObject", "ActionState"]
+- ["Ps9AnyObject", "Error"]
+- ["Ps9AnyObject", "Input"]
+- !private ["Ps9AnyObject", "Lifetime"]
+- !private ["Ps9AnyObject", "MutableProperty"]
+- ["Ps9AnyObject", "Observer"]
+- ["Ps9AnyObject", "Output"]
+- !private ["Ps9AnyObject", "Property"]
+- !private ["Ps9AnyObject", "Signal"]
+- !private ["Ps9AnyObject", "SignalProducer"]
+- ["Ps9AnyObject", "Token"]
+- ["Ps9AnyObject", "Value"]
+- ["Ps9AnyObject", "action"]
+- ["Ps9AnyObject", "apply"]
+- !private ["Ps9AnyObject", "completed"]
+- ["Ps9AnyObject", "consume"]
+- !private ["Ps9AnyObject", "deinitToken"]
+- !private ["Ps9AnyObject", "disabledErrors"]
+- !private ["Ps9AnyObject", "disabledErrorsObserver"]
+- !private ["Ps9AnyObject", "ended"]
+- !private ["Ps9AnyObject", "errors"]
+- !private ["Ps9AnyObject", "events"]
+- !private ["Ps9AnyObject", "eventsObserver"]
+- !private ["Ps9AnyObject", "executeClosure"]
+- !private ["Ps9AnyObject", "filter"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "isEnabled"]
+- !private ["Ps9AnyObject", "isExecuting"]
+- ["Ps9AnyObject", "lifetime"]
+- !private ["Ps9AnyObject", "map"]
+- !private ["Ps9AnyObject", "modify"]
+- !private ["Ps9AnyObject", "observe"]
+- !private ["Ps9AnyObject", "observeCompleted"]
+- !private ["Ps9AnyObject", "observeValues"]
+- !private ["Ps9AnyObject", "pipe"]
+- !private ["Ps9AnyObject", "send"]
+- !private ["Ps9AnyObject", "sendCompleted"]
+- !private ["Ps9AnyObject", "skipNil"]
+- !private ["Ps9AnyObject", "state"]
+- !private ["Ps9AnyObject", "take"]
+- !private ["Ps9AnyObject", "values"]
+- ["Ps9AnyObject", ""]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "Error"]
+- ["P13ReactiveSwift21BindingSourceProtocol", "Observer"]
+- ["P13ReactiveSwift21BindingSourceProtocol", "Value"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "filter"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "init"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "lifetime"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "map"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "modify"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "observe"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "observeCompleted"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "observeValues"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "pipe"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "signal"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "skipNil"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "start"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "startWithSignal"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "take"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "value"]
+- ["P13ReactiveSwift21BindingTargetProtocol", "Action"]
+- ["P13ReactiveSwift21BindingTargetProtocol", "ActionError"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "ActionState"]
+- ["P13ReactiveSwift21BindingTargetProtocol", "Bool"]
+- ["P13ReactiveSwift21BindingTargetProtocol", "Error"]
+- ["P13ReactiveSwift21BindingTargetProtocol", "Input"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "Lifetime"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "MutableProperty"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "Optional"]
+- ["P13ReactiveSwift21BindingTargetProtocol", "Output"]
+- ["P13ReactiveSwift21BindingTargetProtocol", "Property"]
+- ["P13ReactiveSwift21BindingTargetProtocol", "PropertyProtocol"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "Signal"]
+- ["P13ReactiveSwift21BindingTargetProtocol", "SignalProducer"]
+- ["P13ReactiveSwift21BindingTargetProtocol", "Swift"]
+- ["P13ReactiveSwift21BindingTargetProtocol", "Value"]
+- ["P13ReactiveSwift21BindingTargetProtocol", "Void"]
+- ["P13ReactiveSwift21BindingTargetProtocol", "action"]
+- ["P13ReactiveSwift21BindingTargetProtocol", "apply"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "completed"]
+- ["P13ReactiveSwift21BindingTargetProtocol", "consume"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "deinitToken"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "disabledErrors"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "disabledErrorsObserver"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "errors"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "events"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "eventsObserver"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "executeClosure"]
+- ["P13ReactiveSwift21BindingTargetProtocol", "init"]
+- ["P13ReactiveSwift21BindingTargetProtocol", "isEnabled"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "isExecuting"]
+- ["P13ReactiveSwift21BindingTargetProtocol", "lifetime"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "map"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "modify"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "state"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "values"]
+- ["P13ReactiveSwift21BindingTargetProtocol", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["C13ReactiveSwift19CompositeDisposable", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "Wrapped"]
+- !private ["Ps28CustomDebugStringConvertible", "some"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "Wrapped"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "some"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "error"]
+- !private ["Ps23CustomStringConvertible", "isCompleted"]
+- !private ["Ps23CustomStringConvertible", "mapError"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- ["P13ReactiveSwift10Disposable", "deinit"]
+- !private ["CC13ReactiveSwift19CompositeDisposable16DisposableHandle", "deinit"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_userInfo"]
+- ["Ps5Error", "disabled"]
+- ["Ps5Error", "producerFailed"]
+- ["Ps5Error", ""]
+- !private ["O13ReactiveSwift5Event", "deinit"]
+- !private ["O13ReactiveSwift5Event", "error"]
+- !private ["O13ReactiveSwift5Event", "isCompleted"]
+- !private ["O13ReactiveSwift5Event", "mapError"]
+- !private ["O13ReactiveSwift5Event", "value"]
+- !private ["P13ReactiveSwift13EventProtocol", "error"]
+- !private ["P13ReactiveSwift13EventProtocol", "isCompleted"]
+- !private ["P13ReactiveSwift13EventProtocol", "mapError"]
+- !private ["P13ReactiveSwift13EventProtocol", "value"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps23ExpressibleByNilLiteral", "Wrapped"]
+- !private ["Ps23ExpressibleByNilLiteral", "some"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["C13ReactiveSwift8Lifetime", "Token"]
+- ["C13ReactiveSwift8Lifetime", "deinit"]
+- !private ["C13ReactiveSwift8Lifetime", "ended"]
+- !private ["C13ReactiveSwift8Lifetime", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["C13ReactiveSwift15MutableProperty", "Value"]
+- ["C13ReactiveSwift15MutableProperty", "deinit"]
+- !private ["C13ReactiveSwift15MutableProperty", "init"]
+- !private ["C13ReactiveSwift15MutableProperty", "lifetime"]
+- !private ["C13ReactiveSwift15MutableProperty", "map"]
+- !private ["C13ReactiveSwift15MutableProperty", "modify"]
+- !private ["P13ReactiveSwift23MutablePropertyProtocol", "Value"]
+- !private ["P13ReactiveSwift23MutablePropertyProtocol", "init"]
+- !private ["P13ReactiveSwift23MutablePropertyProtocol", "lifetime"]
+- !private ["P13ReactiveSwift23MutablePropertyProtocol", "map"]
+- !private ["P13ReactiveSwift23MutablePropertyProtocol", "modify"]
+- !private ["C13ReactiveSwift8Observer", "action"]
+- ["C13ReactiveSwift8Observer", "deinit"]
+- !private ["C13ReactiveSwift8Observer", "send"]
+- !private ["C13ReactiveSwift8Observer", "sendCompleted"]
+- !private ["P13ReactiveSwift16ObserverProtocol", "action"]
+- !private ["P13ReactiveSwift16ObserverProtocol", "send"]
+- !private ["P13ReactiveSwift16ObserverProtocol", "sendCompleted"]
+- !private ["Sq", "Wrapped"]
+- ["Sq", "deinit"]
+- !private ["Sq", "some"]
+- !private ["P13ReactiveSwift16OptionalProtocol", "Wrapped"]
+- !private ["P13ReactiveSwift16OptionalProtocol", "some"]
+- !private ["C13ReactiveSwift8Property", "Value"]
+- ["C13ReactiveSwift8Property", "deinit"]
+- !private ["C13ReactiveSwift8Property", "init"]
+- ["P13ReactiveSwift16PropertyProtocol", "Value"]
+- !private ["P13ReactiveSwift16PropertyProtocol", "init"]
+- !private ["P13ReactiveSwift16PropertyProtocol", "lifetime"]
+- !private ["P13ReactiveSwift16PropertyProtocol", "map"]
+- !private ["P13ReactiveSwift16PropertyProtocol", "modify"]
+- !private ["P13ReactiveSwift16PropertyProtocol", "signal"]
+- !private ["P13ReactiveSwift16PropertyProtocol", "value"]
+- !private ["C13ReactiveSwift6Signal", "Error"]
+- ["C13ReactiveSwift6Signal", "Observer"]
+- !private ["C13ReactiveSwift6Signal", "Value"]
+- ["C13ReactiveSwift6Signal", "deinit"]
+- !private ["C13ReactiveSwift6Signal", "filter"]
+- !private ["C13ReactiveSwift6Signal", "map"]
+- !private ["C13ReactiveSwift6Signal", "observe"]
+- !private ["C13ReactiveSwift6Signal", "observeCompleted"]
+- !private ["C13ReactiveSwift6Signal", "observeValues"]
+- !private ["C13ReactiveSwift6Signal", "pipe"]
+- !private ["C13ReactiveSwift6Signal", "skipNil"]
+- !private ["C13ReactiveSwift6Signal", "take"]
+- !private ["V13ReactiveSwift14SignalProducer", "Error"]
+- !private ["V13ReactiveSwift14SignalProducer", "Value"]
+- ["V13ReactiveSwift14SignalProducer", "deinit"]
+- !private ["V13ReactiveSwift14SignalProducer", "init"]
+- !private ["V13ReactiveSwift14SignalProducer", "start"]
+- !private ["V13ReactiveSwift14SignalProducer", "startWithSignal"]
+- !private ["P13ReactiveSwift22SignalProducerProtocol", "Error"]
+- !private ["P13ReactiveSwift22SignalProducerProtocol", "Value"]
+- !private ["P13ReactiveSwift22SignalProducerProtocol", "init"]
+- !private ["P13ReactiveSwift22SignalProducerProtocol", "start"]
+- !private ["P13ReactiveSwift22SignalProducerProtocol", "startWithSignal"]
+- !private ["P13ReactiveSwift14SignalProtocol", "Error"]
+- ["P13ReactiveSwift14SignalProtocol", "Observer"]
+- !private ["P13ReactiveSwift14SignalProtocol", "Value"]
+- !private ["P13ReactiveSwift14SignalProtocol", "filter"]
+- !private ["P13ReactiveSwift14SignalProtocol", "map"]
+- !private ["P13ReactiveSwift14SignalProtocol", "observe"]
+- !private ["P13ReactiveSwift14SignalProtocol", "observeCompleted"]
+- !private ["P13ReactiveSwift14SignalProtocol", "observeValues"]
+- !private ["P13ReactiveSwift14SignalProtocol", "pipe"]
+- !private ["P13ReactiveSwift14SignalProtocol", "skipNil"]
+- !private ["P13ReactiveSwift14SignalProtocol", "take"]
+- ["CC13ReactiveSwift8Lifetime5Token", "deinit"]
+- !private ["CC13ReactiveSwift8Lifetime5Token", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "Wrapped"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "some"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "C13ReactiveSwift6Action"
+- "O13ReactiveSwift11ActionError"
+- "P13ReactiveSwift14ActionProtocol"
+- "Ps9AnyObject"
+- "P13ReactiveSwift21BindingSourceProtocol"
+- "P13ReactiveSwift21BindingTargetProtocol"
+- "Sb"
+- !private "C13ReactiveSwift19CompositeDisposable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "P13ReactiveSwift10Disposable"
+- !private "CC13ReactiveSwift19CompositeDisposable16DisposableHandle"
+- !private "Ps9Equatable"
+- "Ps5Error"
+- !private "O13ReactiveSwift5Event"
+- !private "P13ReactiveSwift13EventProtocol"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps8Hashable"
+- "C13ReactiveSwift8Lifetime"
+- !private "Ps25LosslessStringConvertible"
+- "C13ReactiveSwift15MutableProperty"
+- !private "P13ReactiveSwift23MutablePropertyProtocol"
+- "C13ReactiveSwift8Observer"
+- !private "P13ReactiveSwift16ObserverProtocol"
+- "Sq"
+- !private "P13ReactiveSwift16OptionalProtocol"
+- "C13ReactiveSwift8Property"
+- "P13ReactiveSwift16PropertyProtocol"
+- "C13ReactiveSwift6Signal"
+- "V13ReactiveSwift14SignalProducer"
+- !private "P13ReactiveSwift22SignalProducerProtocol"
+- "P13ReactiveSwift14SignalProtocol"
+- "CC13ReactiveSwift8Lifetime5Token"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Intermediates/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+interface-hash: "558142b83301b99ceee23e372425815c"

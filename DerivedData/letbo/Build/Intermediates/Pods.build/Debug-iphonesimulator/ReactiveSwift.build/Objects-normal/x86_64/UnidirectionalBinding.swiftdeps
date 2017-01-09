@@ -1,0 +1,150 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BindingPrecedence"
+- "<~"
+- "BindingSourceProtocol"
+- "BindingTargetProtocol"
+- "<~"
+- "<~"
+- "BindingTarget"
+provides-nominal:
+- "P13ReactiveSwift21BindingSourceProtocol"
+- "C13ReactiveSwift6Signal"
+- "V13ReactiveSwift14SignalProducer"
+- "P13ReactiveSwift21BindingTargetProtocol"
+- "C13ReactiveSwift13BindingTarget"
+provides-member:
+- ["P13ReactiveSwift21BindingSourceProtocol", ""]
+- ["C13ReactiveSwift6Signal", ""]
+- ["V13ReactiveSwift14SignalProducer", ""]
+- ["P13ReactiveSwift21BindingTargetProtocol", ""]
+- ["C13ReactiveSwift13BindingTarget", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "NoError"
+- "SignalProducer"
+- "Void"
+- "BindingTargetProtocol"
+- "Swift"
+- "BindingTarget"
+- "<~"
+- "SchedulerProtocol"
+- "OptionalProtocol"
+- "AssignmentPrecedence"
+- "Lifetime"
+- "CastingPrecedence"
+- "Signal"
+- "Disposable"
+- "BindingSourceProtocol"
+- "Observer"
+depends-member:
+- ["Ps9AnyObject", "Error"]
+- ["Ps9AnyObject", "Observer"]
+- ["Ps9AnyObject", "Value"]
+- ["Ps9AnyObject", "consume"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "lifetime"]
+- ["Ps9AnyObject", "observe"]
+- !private ["Ps9AnyObject", "setter"]
+- !private ["Ps9AnyObject", "take"]
+- ["Ps9AnyObject", ""]
+- ["P13ReactiveSwift21BindingSourceProtocol", "Disposable"]
+- ["P13ReactiveSwift21BindingSourceProtocol", "Error"]
+- ["P13ReactiveSwift21BindingSourceProtocol", "Lifetime"]
+- ["P13ReactiveSwift21BindingSourceProtocol", "Observer"]
+- ["P13ReactiveSwift21BindingSourceProtocol", "Swift"]
+- ["P13ReactiveSwift21BindingSourceProtocol", "Value"]
+- ["P13ReactiveSwift21BindingSourceProtocol", "observe"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "startWithSignal"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "take"]
+- ["P13ReactiveSwift21BindingSourceProtocol", ""]
+- ["C13ReactiveSwift13BindingTarget", "Lifetime"]
+- ["C13ReactiveSwift13BindingTarget", "SchedulerProtocol"]
+- ["C13ReactiveSwift13BindingTarget", "Value"]
+- ["C13ReactiveSwift13BindingTarget", "Void"]
+- ["C13ReactiveSwift13BindingTarget", "consume"]
+- ["C13ReactiveSwift13BindingTarget", "deinit"]
+- ["C13ReactiveSwift13BindingTarget", "init"]
+- ["C13ReactiveSwift13BindingTarget", "lifetime"]
+- !private ["C13ReactiveSwift13BindingTarget", "setter"]
+- ["P13ReactiveSwift21BindingTargetProtocol", "Lifetime"]
+- ["P13ReactiveSwift21BindingTargetProtocol", "Value"]
+- ["P13ReactiveSwift21BindingTargetProtocol", "consume"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "init"]
+- ["P13ReactiveSwift21BindingTargetProtocol", "lifetime"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "setter"]
+- ["P13ReactiveSwift21BindingTargetProtocol", ""]
+- !private ["P13ReactiveSwift10Disposable", "deinit"]
+- ["SQ", "deinit"]
+- ["C13ReactiveSwift8Lifetime", "deinit"]
+- ["C13ReactiveSwift8Observer", "deinit"]
+- !private ["C13ReactiveSwift8Observer", "init"]
+- !private ["P13ReactiveSwift16ObserverProtocol", "init"]
+- ["Sq", "deinit"]
+- !private ["P13ReactiveSwift16OptionalProtocol", "Wrapped"]
+- !private ["P13ReactiveSwift16OptionalProtocol", "init"]
+- !private ["P13ReactiveSwift17SchedulerProtocol", "deinit"]
+- !private ["P13ReactiveSwift17SchedulerProtocol", "schedule"]
+- ["C13ReactiveSwift6Signal", "Disposable"]
+- ["C13ReactiveSwift6Signal", "Error"]
+- ["C13ReactiveSwift6Signal", "Lifetime"]
+- ["C13ReactiveSwift6Signal", "Observer"]
+- ["C13ReactiveSwift6Signal", "Value"]
+- ["C13ReactiveSwift6Signal", "deinit"]
+- ["C13ReactiveSwift6Signal", "observe"]
+- !private ["C13ReactiveSwift6Signal", "take"]
+- ["V13ReactiveSwift14SignalProducer", "Disposable"]
+- ["V13ReactiveSwift14SignalProducer", "Error"]
+- ["V13ReactiveSwift14SignalProducer", "Lifetime"]
+- ["V13ReactiveSwift14SignalProducer", "ProducedSignal"]
+- ["V13ReactiveSwift14SignalProducer", "Value"]
+- ["V13ReactiveSwift14SignalProducer", "deinit"]
+- ["V13ReactiveSwift14SignalProducer", "observe"]
+- !private ["V13ReactiveSwift14SignalProducer", "startWithSignal"]
+- !private ["V13ReactiveSwift14SignalProducer", "take"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "Error"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "Value"]
+- ["P13ReactiveSwift22SignalProducerProtocol", "observe"]
+- !private ["P13ReactiveSwift22SignalProducerProtocol", "startWithSignal"]
+- !private ["P13ReactiveSwift22SignalProducerProtocol", "take"]
+- ["P13ReactiveSwift14SignalProtocol", "Error"]
+- ["P13ReactiveSwift14SignalProtocol", "Observer"]
+- ["P13ReactiveSwift14SignalProtocol", "Value"]
+- ["P13ReactiveSwift14SignalProtocol", "observe"]
+- !private ["P13ReactiveSwift14SignalProtocol", "take"]
+depends-nominal:
+- "Ps9AnyObject"
+- "P13ReactiveSwift21BindingSourceProtocol"
+- "C13ReactiveSwift13BindingTarget"
+- "P13ReactiveSwift21BindingTargetProtocol"
+- !private "P13ReactiveSwift10Disposable"
+- "SQ"
+- "C13ReactiveSwift8Lifetime"
+- "C13ReactiveSwift8Observer"
+- !private "P13ReactiveSwift16ObserverProtocol"
+- "Sq"
+- !private "P13ReactiveSwift16OptionalProtocol"
+- !private "P13ReactiveSwift17SchedulerProtocol"
+- "C13ReactiveSwift6Signal"
+- "V13ReactiveSwift14SignalProducer"
+- "P13ReactiveSwift22SignalProducerProtocol"
+- "P13ReactiveSwift14SignalProtocol"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Intermediates/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+interface-hash: "eceb6e43f92d1bc716ed0bcc30b175d2"

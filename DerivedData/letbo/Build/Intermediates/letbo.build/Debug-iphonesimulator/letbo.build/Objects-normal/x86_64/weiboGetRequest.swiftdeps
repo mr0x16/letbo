@@ -1,0 +1,368 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "weiboGetRequest"
+provides-nominal:
+- "C5letbo15weiboGetRequest"
+provides-member:
+- ["C5letbo15weiboGetRequest", ""]
+provides-dynamic-lookup:
+- "baseURL"
+depends-top-level:
+- "StringLiteralType"
+- !private "NSLog"
+- "weiboGetRequest"
+- "Dictionary"
+- "Alamofire"
+- "UnicodeScalarType"
+- !private "AppDelegate"
+- "String"
+- !private "AssignmentPrecedence"
+- "NSObject"
+depends-member:
+- !private ["Ps9AnyObject", "Alamofire"]
+- !private ["Ps9AnyObject", "AppDelegate"]
+- !private ["Ps9AnyObject", "NSLog"]
+- ["Ps9AnyObject", "baseURL"]
+- ["Ps9AnyObject", "generateFullURL"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "mrRequest"]
+- !private ["Ps9AnyObject", "weiboAppKey"]
+- ["Ps9AnyObject", ""]
+- !private ["C5letbo11AppDelegate", "weiboAppKey"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "deinit"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Alamofire"]
+- !private ["Ps7CVarArg", "AppDelegate"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "NSLog"]
+- !private ["Ps7CVarArg", "_Element"]
+- ["Ps7CVarArg", "baseURL"]
+- ["Ps7CVarArg", "generateFullURL"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "map"]
+- ["Ps7CVarArg", "mrRequest"]
+- !private ["Ps7CVarArg", "weiboAppKey"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "map"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Alamofire"]
+- !private ["Ps28CustomDebugStringConvertible", "AppDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "NSLog"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- ["Ps28CustomDebugStringConvertible", "baseURL"]
+- ["Ps28CustomDebugStringConvertible", "generateFullURL"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- ["Ps28CustomDebugStringConvertible", "mrRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "weiboAppKey"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps23CustomStringConvertible", "Alamofire"]
+- !private ["Ps23CustomStringConvertible", "AppDelegate"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "NSLog"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- ["Ps23CustomStringConvertible", "baseURL"]
+- ["Ps23CustomStringConvertible", "generateFullURL"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- ["Ps23CustomStringConvertible", "mrRequest"]
+- !private ["Ps23CustomStringConvertible", "weiboAppKey"]
+- ["Ps23CustomStringConvertible", ""]
+- ["C9Alamofire11DataRequest", "deinit"]
+- !private ["Vs10Dictionary", "Iterator"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "map"]
+- !private ["Vs18DictionaryIterator", "Element"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Alamofire"]
+- !private ["Ps9Equatable", "AppDelegate"]
+- !private ["Ps9Equatable", "NSLog"]
+- ["Ps9Equatable", "baseURL"]
+- ["Ps9Equatable", "generateFullURL"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "mrRequest"]
+- !private ["Ps9Equatable", "weiboAppKey"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Iterator"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "map"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "Alamofire"]
+- !private ["Ps8Hashable", "AppDelegate"]
+- !private ["Ps8Hashable", "NSLog"]
+- ["Ps8Hashable", "baseURL"]
+- ["Ps8Hashable", "generateFullURL"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "mrRequest"]
+- !private ["Ps8Hashable", "weiboAppKey"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "map"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "map"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- ["P10SwiftyJSON17JSONSubscriptType", "init"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Alamofire"]
+- !private ["CSo8NSObject", "AppDelegate"]
+- ["CSo8NSObject", "Dictionary"]
+- !private ["CSo8NSObject", "NSLog"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "baseURL"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "generateFullURL"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "mrRequest"]
+- !private ["CSo8NSObject", "weiboAppKey"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "Alamofire"]
+- !private ["PSo16NSObjectProtocol", "AppDelegate"]
+- !private ["PSo16NSObjectProtocol", "NSLog"]
+- ["PSo16NSObjectProtocol", "baseURL"]
+- ["PSo16NSObjectProtocol", "generateFullURL"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "mrRequest"]
+- !private ["PSo16NSObjectProtocol", "weiboAppKey"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["P13ReactiveSwift26ReactiveExtensionsProvider", "Alamofire"]
+- !private ["P13ReactiveSwift26ReactiveExtensionsProvider", "AppDelegate"]
+- !private ["P13ReactiveSwift26ReactiveExtensionsProvider", "NSLog"]
+- ["P13ReactiveSwift26ReactiveExtensionsProvider", "baseURL"]
+- ["P13ReactiveSwift26ReactiveExtensionsProvider", "generateFullURL"]
+- ["P13ReactiveSwift26ReactiveExtensionsProvider", "init"]
+- ["P13ReactiveSwift26ReactiveExtensionsProvider", "mrRequest"]
+- !private ["P13ReactiveSwift26ReactiveExtensionsProvider", "weiboAppKey"]
+- ["P13ReactiveSwift26ReactiveExtensionsProvider", ""]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "map"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo21UIApplicationDelegate", "weiboAppKey"]
+- !private ["CSo11UIResponder", "weiboAppKey"]
+- !private ["PSo30UIResponderStandardEditActions", "weiboAppKey"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- ["P9Alamofire14URLConvertible", "init"]
+- !private ["Sc", "deinit"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Alamofire"]
+- !private ["Ps9_Hashable", "AppDelegate"]
+- !private ["Ps9_Hashable", "NSLog"]
+- ["Ps9_Hashable", "baseURL"]
+- ["Ps9_Hashable", "generateFullURL"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "mrRequest"]
+- !private ["Ps9_Hashable", "weiboAppKey"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "map"]
+- ["C5letbo15weiboGetRequest", "Alamofire"]
+- !private ["C5letbo15weiboGetRequest", "AppDelegate"]
+- ["C5letbo15weiboGetRequest", "Dictionary"]
+- !private ["C5letbo15weiboGetRequest", "NSLog"]
+- ["C5letbo15weiboGetRequest", "String"]
+- ["C5letbo15weiboGetRequest", "baseURL"]
+- ["C5letbo15weiboGetRequest", "deinit"]
+- !private ["C5letbo15weiboGetRequest", "generateFullURL"]
+- ["C5letbo15weiboGetRequest", "init"]
+- ["C5letbo15weiboGetRequest", "mrRequest"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "C5letbo11AppDelegate"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "C9Alamofire11DataRequest"
+- "Vs10Dictionary"
+- !private "Vs18DictionaryIterator"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps16IteratorProtocol"
+- "P10SwiftyJSON17JSONSubscriptType"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "P13ReactiveSwift26ReactiveExtensionsProvider"
+- !private "Ps8Sequence"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "PSo21UIApplicationDelegate"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- "P9Alamofire14URLConvertible"
+- !private "Sc"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+- "C5letbo15weiboGetRequest"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/letbo-Bridging-Header.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Headers/Public/WeiboSDK/WeiboSDK.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Headers/Public/WeiboSDK/WBHttpRequest.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Headers/Public/WeiboSDK/WBHttpRequest+WeiboUser.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Headers/Public/WeiboSDK/WBHttpRequest+WeiboShare.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Headers/Public/WeiboSDK/WBHttpRequest+WeiboToken.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Headers/Public/WeiboSDK/WBHttpRequest+WeiboGame.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Headers/Public/WeiboSDK/WBSDKRelationshipButton.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Headers/Public/WeiboSDK/WBSDKBasicButton.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Headers/Public/WeiboSDK/WBSDKCommentButton.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Modules/KeychainAccess.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Modules/module.modulemap"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SwiftyBeaver/SwiftyBeaver.framework/Modules/SwiftyBeaver.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SwiftyBeaver/SwiftyBeaver.framework/Headers/SwiftyBeaver-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SwiftyBeaver/SwiftyBeaver.framework/Headers/SwiftyBeaver-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SwiftyBeaver/SwiftyBeaver.framework/Modules/module.modulemap"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Modules/ReactiveSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Headers/ReactiveSwift-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Headers/ReactiveSwift-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Modules/module.modulemap"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/module.modulemap"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveCocoa/ReactiveCocoa.framework/Modules/ReactiveCocoa.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveCocoa/ReactiveCocoa.framework/Headers/ReactiveCocoa-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveCocoa/ReactiveCocoa.framework/PrivateHeaders/ObjCRuntimeAliases.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveCocoa/ReactiveCocoa.framework/Headers/ReactiveCocoa.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveCocoa/ReactiveCocoa.framework/Modules/module.modulemap"
+interface-hash: "4b01d29633cb576a152f41c622111373"

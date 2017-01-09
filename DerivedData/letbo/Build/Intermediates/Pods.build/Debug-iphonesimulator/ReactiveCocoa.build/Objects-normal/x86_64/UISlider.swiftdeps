@@ -1,0 +1,113 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["V13ReactiveSwift8Reactive", ""]
+- ["V13ReactiveSwift8Reactive", "value"]
+- ["V13ReactiveSwift8Reactive", "minimumValue"]
+- ["V13ReactiveSwift8Reactive", "maximumValue"]
+- ["V13ReactiveSwift8Reactive", "values"]
+provides-dynamic-lookup:
+depends-top-level:
+- "NoError"
+- "BindingTarget"
+- "Float"
+- !private "AssignmentPrecedence"
+- "Reactive"
+- "UISlider"
+- "Signal"
+depends-member:
+- !private ["Ps9AnyObject", "Error"]
+- !private ["Ps9AnyObject", "Value"]
+- !private ["Ps9AnyObject", "map"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "Error"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "Value"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "map"]
+- ["C13ReactiveSwift13BindingTarget", "deinit"]
+- !private ["Ps9Equatable", "valueChanged"]
+- !private ["Ps25ExpressibleByArrayLiteral", "valueChanged"]
+- !private ["Sf", "deinit"]
+- !private ["CSo8NSObject", "maximumValue"]
+- !private ["CSo8NSObject", "minimumValue"]
+- !private ["CSo8NSObject", "value"]
+- !private ["Ps9OptionSet", "valueChanged"]
+- !private ["Ps16RawRepresentable", "valueChanged"]
+- ["V13ReactiveSwift8Reactive", "BindingTarget"]
+- ["V13ReactiveSwift8Reactive", "Float"]
+- ["V13ReactiveSwift8Reactive", "NoError"]
+- ["V13ReactiveSwift8Reactive", "Signal"]
+- ["V13ReactiveSwift8Reactive", "UISlider"]
+- !private ["V13ReactiveSwift8Reactive", "controlEvents"]
+- ["V13ReactiveSwift8Reactive", "deinit"]
+- !private ["V13ReactiveSwift8Reactive", "makeBindingTarget"]
+- ["V13ReactiveSwift8Reactive", "maximumValue"]
+- ["V13ReactiveSwift8Reactive", "minimumValue"]
+- ["V13ReactiveSwift8Reactive", "value"]
+- ["V13ReactiveSwift8Reactive", "values"]
+- !private ["Ps10SetAlgebra", "valueChanged"]
+- !private ["C13ReactiveSwift6Signal", "Error"]
+- !private ["C13ReactiveSwift6Signal", "Value"]
+- ["C13ReactiveSwift6Signal", "deinit"]
+- !private ["C13ReactiveSwift6Signal", "map"]
+- !private ["P13ReactiveSwift14SignalProtocol", "Error"]
+- !private ["P13ReactiveSwift14SignalProtocol", "Value"]
+- !private ["P13ReactiveSwift14SignalProtocol", "map"]
+- !private ["CSo9UIControl", "maximumValue"]
+- !private ["CSo9UIControl", "minimumValue"]
+- !private ["CSo9UIControl", "value"]
+- ["VSC15UIControlEvents", "deinit"]
+- !private ["VSC15UIControlEvents", "valueChanged"]
+- !private ["CSo11UIResponder", "maximumValue"]
+- !private ["CSo11UIResponder", "minimumValue"]
+- !private ["CSo11UIResponder", "value"]
+- !private ["CSo8UISlider", "maximumValue"]
+- !private ["CSo8UISlider", "minimumValue"]
+- !private ["CSo8UISlider", "value"]
+- !private ["CSo6UIView", "maximumValue"]
+- !private ["CSo6UIView", "minimumValue"]
+- !private ["CSo6UIView", "value"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "P13ReactiveSwift21BindingSourceProtocol"
+- "C13ReactiveSwift13BindingTarget"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Sf"
+- !private "CSo8NSObject"
+- !private "Ps9OptionSet"
+- !private "Ps16RawRepresentable"
+- "V13ReactiveSwift8Reactive"
+- !private "Ps10SetAlgebra"
+- "C13ReactiveSwift6Signal"
+- !private "P13ReactiveSwift14SignalProtocol"
+- !private "CSo9UIControl"
+- "VSC15UIControlEvents"
+- !private "CSo11UIResponder"
+- !private "CSo8UISlider"
+- !private "CSo6UIView"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/Pods/ReactiveCocoa/ReactiveCocoa/ObjCRuntimeAliases.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/ReactiveCocoa/ReactiveCocoa/ReactiveCocoa.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Modules/ReactiveSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Headers/ReactiveSwift-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Intermediates/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "e29be01be36a8d165a00a927f03e07db"
