@@ -18,8 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let console = ConsoleDestination()
     let log = SwiftyBeaver.self
     
-//    let env = "TEST"
-    let env = "PRD"
+    let env = "TEST"
+//    let env = "PRD"
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

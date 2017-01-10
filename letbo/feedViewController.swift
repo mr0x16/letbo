@@ -7,11 +7,14 @@
 //
 
 import UIKit
-
+import SwiftyJSON
+import SwiftyBeaver
 
 class feedViewController: UIViewController {//,UITableViewDelegate,UITableViewDataSource {
     
     let feedList = UITableView()
+    let console = ConsoleDestination()
+    let log = SwiftyBeaver.self
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +23,22 @@ class feedViewController: UIViewController {//,UITableViewDelegate,UITableViewDa
             make.edges.equalTo(view.snp.edges)
         }
         
+        log.addDestination(console)
+        let param = ["access_token":myKeychain.getKeychain(key: "access_Token")! as String]
+        let httpThread = DispatchQueue.global(qos: .default)
+        weiboGetRequest.mrRequest(api: .feedList, parameter: param).responseJSON(queue: httpThread ,completionHandler: { (response) in
+            switch response.result {
+            case .success(let value):
+                let json = JSON(value)
+                self.log.info(json["statuses"].count)
+                self.log.info(json)
+                break
+            case .failure(let error):
+                self.log.error(error)
+            }
+            //                self.log.info(JSON(data: response.data!).rawString())
+            //                self.log.info(JSON(data: response.data!)["error"])
+        })
         // Do any additional setup after loading the view.
     }
 

@@ -1,6 +1,0 @@
-version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
-options: "9a0f43bd2fb80b0f9db32d74d8c58d4d"
-build_time: [537109329, 974567000]
-inputs:
-  "/Users/maxuesong/Documents/git/letbo/Pods/Result/Result/Result.swift": [536344152, 0]
-  "/Users/maxuesong/Documents/git/letbo/Pods/Result/Result/ResultProtocol.swift": [536344152, 0]
