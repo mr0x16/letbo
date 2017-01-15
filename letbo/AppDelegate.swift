@@ -17,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var beginView = UIViewController()
     let console = ConsoleDestination()
     let log = SwiftyBeaver.self
+    var loginStaute = Bool.init()
+    
     
     let env = "TEST"
 //    let env = "PRD"
@@ -63,11 +65,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     
     func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
-        return WeiboSDK.handleOpen(url, delegate: weiboDelegate())
+        return WeiboSDK.handleOpen(url, delegate: weiboGetRequest())
     }
     
     func application(_ application: UIApplication, handleOpen url: URL) -> Bool {
-        return WeiboSDK.handleOpen(url, delegate: weiboDelegate())
+        return WeiboSDK.handleOpen(url, delegate: weiboGetRequest())
     }
     
 

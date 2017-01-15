@@ -23,11 +23,13 @@ class testViewController: UIViewController {
     let console = ConsoleDestination()
     let log = SwiftyBeaver.self
     
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
         log.addDestination(console)
-        
         
         authorizeButton.setTitle("登陆", for: .normal)
         view.addSubview(authorizeButton)
@@ -39,14 +41,7 @@ class testViewController: UIViewController {
         }
         authorizeButton.reactive.controlEvents(.touchUpInside).observe { (event) in
             self.log.info("authorize is start")
-            let request = WBAuthorizeRequest.request() as?  WBAuthorizeRequest
-            request?.redirectURI = "https://api.weibo.com/oauth2/default.html"
-            request?.scope = "all"
-            request?.userInfo = ["SSO_From": "testViewController",
-                "Other_Info_1": NSNumber.init(value: 123),
-                "Other_Info_2": ["obj1", "obj2"],
-                "Other_Info_3": ["key1": "obj1", "key2": "obj2"]];
-            WeiboSDK.send(request)
+            weiboGetRequest.oauth2Request()
         }
         
         feedlistButton.setTitle("内容列表", for: .normal)
@@ -60,10 +55,10 @@ class testViewController: UIViewController {
         feedlistButton.reactive.controlEvents(.touchUpInside).observe { (event) in
             self.log.info("feedlist is start")
             
-            let param = ["access_token":myKeychain.getKeychain(key: "access_Token")! as String]
+            
             let httpThread = DispatchQueue.global(qos: .default)
 
-            weiboGetRequest.mrRequest(api:.feedList, parameter: param).responseJSON(queue: httpThread ,completionHandler: { (response) in
+            weiboGetRequest.mrRequest(api:.feedList, parameter: nil).responseJSON(queue: httpThread ,completionHandler: { (response) in
                 switch response.result {
                 case .success(let value):
                     let json = JSON(value)
@@ -86,15 +81,14 @@ class testViewController: UIViewController {
         }
         revokeAuthorizeButton.reactive.controlEvents(.touchUpInside).observe { (event) in
             self.log.info("revoke is start")
-            let param = ["access_token":myKeychain.getKeychain(key: "access_Token")! as String]
+            //let param = ["access_token":myKeychain.getKeychain(key: "access_Token")! as String]
             let httpThread = DispatchQueue.global(qos: .default)
             
-            weiboGetRequest.mrRequest(api: .revokeOAuth2, parameter: param).responseJSON(queue: httpThread, completionHandler: { (response) in
+            weiboGetRequest.mrRequest(api: .revokeOAuth2, parameter: nil).responseJSON(queue: httpThread, completionHandler: { (response) in
                 switch response.result {
                 case .success(let value):
                     let json = JSON(value)
                     self.log.info(json)
-                    
                     break
                 case .failure(let error):
                     self.log.error(error)
@@ -103,17 +97,15 @@ class testViewController: UIViewController {
             
         }
         
-        let sessionManager = SessionManager.default
-        sessionManager.adapter = weiboGetRequest()
-        sessionManager.retrier = weiboGetRequest()
-//        sessionManager.session.invalidateAndCancel()
-        let url = URL(string: "https://api.weibo.com/2/statuses/friends_timeline.json?access_token=2.00iFEYmB0vfOjV2f0815a25caA7z2&source=468847591")
         
-        var urlRequest = URLRequest(url:url!)
-        urlRequest.httpMethod = HTTPMethod.get.rawValue
-        sessionManager.request(urlRequest).validate().responseJSON { (response) in
-            self.log.verbose(response)
-        }
+////        sessionManager.session.invalidateAndCancel()
+//        let url = URL(string: "https://api.weibo.com/2/statuses/friends_timeline.json?access_token=2.00iFEYmB0vfOjV2f0815a25caA7z2&source=468847591")
+//        
+//        var urlRequest = URLRequest(url:url!)
+//        urlRequest.httpMethod = HTTPMethod.get.rawValue
+//        sessionManager.request(urlRequest).validate().responseJSON { (response) in
+//            self.log.verbose(response)
+//        }
         
         
         // Do any additional setup after loading the view.
