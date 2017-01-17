@@ -234,11 +234,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "Yes"
             filePath = "letbo/feedViewController.swift"
-            timestampString = "506363949.990365"
+            timestampString = "506365227.398721"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
             <Actions>
@@ -268,9 +268,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "67"
-            endingLineNumber = "67"
-            landmarkName = "dataUpdate(insertFlag:)"
-            landmarkType = "7">
+            endingLineNumber = "67">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -328,11 +326,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "letbo/feedViewController.swift"
-            timestampString = "506364087.771061"
+            timestampString = "506365227.398721"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
             landmarkName = "scrollViewDidEndDecelerating(_:)"
             landmarkType = "7">
             <Actions>
@@ -352,11 +350,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "letbo/feedViewController.swift"
-            timestampString = "506363949.990365"
+            timestampString = "506365227.398721"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "dataUpdate(insertFlag:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -368,11 +366,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "letbo/feedViewController.swift"
-            timestampString = "506364331.555841"
+            timestampString = "506365227.398721"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "dataUpdate(insertFlag:)"
             landmarkType = "7">
          </BreakpointContent>

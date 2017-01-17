@@ -70,6 +70,9 @@ class feedViewController: UIViewController, UITableViewDelegate,UITableViewDataS
                 if responseArray.count != 0{
                     if insertFlag {
                         self.since_id = responseArray[0]["id"].rawString()!
+                        if self.max_id == "0" {
+                            self.max_id = (responseArray[responseArray.count-1]["id"].rawValue as! Int64 - 1).description
+                        }
                         self.json = responseArray + self.json
                     } else {
                         self.max_id = (responseArray[responseArray.count-1]["id"].rawValue as! Int64 - 1).description
