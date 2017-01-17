@@ -10,12 +10,24 @@ import UIKit
 import SwiftyJSON
 import SwiftyBeaver
 
-class feedViewController: UIViewController, UITableViewDelegate,UITableViewDataSource {
+class feedViewController: UIViewController, UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate {
     
     let feedList = UITableView()
     let console = ConsoleDestination()
     let log = SwiftyBeaver.self
-    var json:JSON = []
+    var json = [JSON]()
+    var since_id:String = "0"
+    var  max_id:String = "0"
+    let updateCount:String = "20"
+    
+    
+    var updateStaute:Bool = false {
+        didSet{
+//            var totalNum = 0
+            dataUpdate(insertFlag: updateStaute)
+        }
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,9 +42,10 @@ class feedViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         feedList.dataSource = self
         feedList.estimatedRowHeight = 100
         feedList.rowHeight = UITableViewAutomaticDimension
+        
         log.addDestination(console)
         
-        self.dataUpdate()
+        self.dataUpdate(insertFlag: true)
         // Do any additional setup after loading the view.
     }
 
@@ -41,19 +54,36 @@ class feedViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         // Dispose of any resources that can be recreated.
     }
     
-    func dataUpdate() -> Void {
+    func dataUpdate(insertFlag:Bool) -> Void {
         let httpThread = DispatchQueue.global(qos: .default)
-        weiboGetRequest.mrRequest(api: .feedList, parameter: nil).responseJSON(queue: httpThread ,completionHandler: { (response) in
+        var param = Dictionary<String,String>()
+        if insertFlag {
+            param = ["since_id":since_id,"count":updateCount]
+        } else {
+            param = ["max_id":max_id,"count":updateCount]
+        }
+
+        weiboGetRequest.mrRequest(api: .feedList, parameter: param).responseJSON(queue: httpThread ,completionHandler: { (response) in
             switch response.result {
             case .success(let value):
-                self.json = JSON(value)["statuses"]
-                self.log.info(self.json.count)
-
-                weak var weakSelf = self
-                DispatchQueue.main.async {
-                    weakSelf?.feedList.reloadData()
+                let responseArray = JSON(value)["statuses"].array!
+                if responseArray.count != 0{
+                    if insertFlag {
+                        self.since_id = responseArray[0]["id"].rawString()!
+                        self.json = responseArray + self.json
+                    } else {
+                        self.max_id = (responseArray[responseArray.count-1]["id"].rawValue as! Int64 - 1).description
+                        self.json += responseArray
+                    }
+                    self.log.info(self.json.count)
+                    
+                    weak var weakSelf = self
+                    DispatchQueue.main.async {
+                        weakSelf?.feedList.reloadData()
+                    }
+                    break
                 }
-                break
+                
             case .failure(let error):
                 self.log.error(error)
             }
@@ -61,12 +91,13 @@ class feedViewController: UIViewController, UITableViewDelegate,UITableViewDataS
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell:UITableViewCell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: nil)
+        let cell:UITableViewCell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "normalCell")
 //        let title = (self.json.array?[indexPath.row])!["user"]["screen_name"]
-        let text = (self.json.array?[indexPath.row])!["text"].rawString()!
+        let text = self.json[indexPath.row]["text"].rawString()!
         if indexPath.row%2 == 0 {
-            cell.backgroundColor = UIColor.gray
+            cell.backgroundColor = UIColor(red: 242/256, green: 242/256, blue: 242/256, alpha: 1)
         }
+        
         cell.textLabel?.text = text
         cell.textLabel?.lineBreakMode = .byWordWrapping
         cell.textLabel?.numberOfLines = 0
@@ -79,6 +110,17 @@ class feedViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         return self.json.count
     }
     
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        NSLog("view have in edge")
+        NSLog("\(scrollView.contentOffset.y)")
+        let offSet = scrollView.contentOffset.y
+        if offSet == 0 {
+            self.updateStaute = true
+        }
+        if offSet == scrollView.contentSize.height - scrollView.frame.size.height {
+            self.updateStaute = false
+        }
+    }
 
     /*
     // MARK: - Navigation

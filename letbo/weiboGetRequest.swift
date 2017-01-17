@@ -141,7 +141,7 @@ class weiboGetRequest: NSObject,RequestRetrier,RequestAdapter,WeiboSDKDelegate {
         }
         let param = parameter!.map { (key,value) -> String in
             var element = ""
-            element = "\(key)=\(value)"
+            element = "&\(key)=\(value)"
             return element
             }
         
