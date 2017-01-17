@@ -1,5 +1,0 @@
-version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
-options: "c4a71e030a3cda5e7b0c715945ec1a86"
-build_time: [537887071, 588642000]
-inputs:
-  "/Users/maxuesong/Documents/git/letbo/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [536692827, 0]

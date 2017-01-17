@@ -20,13 +20,16 @@ class feedViewController: UIViewController, UITableViewDelegate,UITableViewDataS
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(feedList)
+        
         feedList.snp.makeConstraints { (make) in
             make.edges.equalTo(view.snp.edges)
         }
-        
+
+        feedList.separatorStyle = .singleLineEtched
         feedList.delegate = self
         feedList.dataSource = self
-        
+        feedList.estimatedRowHeight = 100
+        feedList.rowHeight = UITableViewAutomaticDimension
         log.addDestination(console)
         
         self.dataUpdate()
@@ -45,8 +48,11 @@ class feedViewController: UIViewController, UITableViewDelegate,UITableViewDataS
             case .success(let value):
                 self.json = JSON(value)["statuses"]
                 self.log.info(self.json.count)
-//                self.log.info(self.json)
-                self.feedList.reloadData()
+
+                weak var weakSelf = self
+                DispatchQueue.main.async {
+                    weakSelf?.feedList.reloadData()
+                }
                 break
             case .failure(let error):
                 self.log.error(error)
@@ -56,8 +62,15 @@ class feedViewController: UIViewController, UITableViewDelegate,UITableViewDataS
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell:UITableViewCell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: nil)
-        let title = (self.json.array?[indexPath.row])!["user"]["description"]
-        let text = (self.json.array?[indexPath.row])!["text"]
+//        let title = (self.json.array?[indexPath.row])!["user"]["screen_name"]
+        let text = (self.json.array?[indexPath.row])!["text"].rawString()!
+        if indexPath.row%2 == 0 {
+            cell.backgroundColor = UIColor.gray
+        }
+        cell.textLabel?.text = text
+        cell.textLabel?.lineBreakMode = .byWordWrapping
+        cell.textLabel?.numberOfLines = 0
+        cell.textLabel?.sizeToFit()
         
         return cell
     }
@@ -66,8 +79,7 @@ class feedViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         return self.json.count
     }
     
-    
-    
+
     /*
     // MARK: - Navigation
 
