@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9838B83AD128ECD3EC94A107 /* Pods_letbo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50605824D943800692E22685 /* Pods_letbo.framework */; };
 		D32DC6C01E20991800B981A5 /* myKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32DC6BE1E2098F300B981A5 /* myKeychain.swift */; };
+		D335F90E1E2D2393004A754E /* weibo.json in Resources */ = {isa = PBXBuildFile; fileRef = D335F90D1E2D2393004A754E /* weibo.json */; };
 		D37F41D61E211F0000417E01 /* weiboGetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37F41D51E211F0000417E01 /* weiboGetRequest.swift */; };
 		D3833F891E156A590036A5F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3833F881E156A590036A5F3 /* AppDelegate.swift */; };
 		D3833F8B1E156A590036A5F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3833F8A1E156A590036A5F3 /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 		50605824D943800692E22685 /* Pods_letbo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_letbo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55712B2E3F6C8D173E839668 /* Pods-letbo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-letbo.release.xcconfig"; path = "Pods/Target Support Files/Pods-letbo/Pods-letbo.release.xcconfig"; sourceTree = "<group>"; };
 		D32DC6BE1E2098F300B981A5 /* myKeychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myKeychain.swift; sourceTree = "<group>"; };
+		D335F90D1E2D2393004A754E /* weibo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo.json; sourceTree = "<group>"; };
 		D36E78E31E1583FF004F41C6 /* letbo-bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "letbo-bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		D37F41D51E211F0000417E01 /* weiboGetRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = weiboGetRequest.swift; sourceTree = "<group>"; };
 		D3833F851E156A590036A5F3 /* letbo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = letbo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +72,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D335F90C1E2D2365004A754E /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				D335F90D1E2D2393004A754E /* weibo.json */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
 		D3833F7C1E156A580036A5F3 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +101,7 @@
 		D3833F871E156A590036A5F3 /* letbo */ = {
 			isa = PBXGroup;
 			children = (
+				D335F90C1E2D2365004A754E /* resources */,
 				D32DC6BE1E2098F300B981A5 /* myKeychain.swift */,
 				D36E78E31E1583FF004F41C6 /* letbo-bridging-Header.h */,
 				D3833F881E156A590036A5F3 /* AppDelegate.swift */,
@@ -171,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D335F90E1E2D2393004A754E /* weibo.json in Resources */,
 				D3833F931E156A590036A5F3 /* LaunchScreen.storyboard in Resources */,
 				D3833F901E156A590036A5F3 /* Assets.xcassets in Resources */,
 				D3833F8E1E156A590036A5F3 /* Main.storyboard in Resources */,

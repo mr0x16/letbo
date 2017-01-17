@@ -1,0 +1,256 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CocoaAction"
+provides-nominal:
+- "C13ReactiveCocoa11CocoaAction"
+provides-member:
+- ["C13ReactiveCocoa11CocoaAction", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Action"
+- !private "StringLiteralType"
+- "Selector"
+- !private "UIScheduler"
+- "CastingPrecedence"
+- "Property"
+- "Bool"
+- "AssignmentPrecedence"
+- "Void"
+- "CocoaAction"
+- "NSObject"
+depends-member:
+- !private ["C13ReactiveSwift6Action", "apply"]
+- ["C13ReactiveSwift6Action", "deinit"]
+- !private ["C13ReactiveSwift6Action", "isEnabled"]
+- !private ["C13ReactiveSwift6Action", "isExecuting"]
+- !private ["P13ReactiveSwift14ActionProtocol", "apply"]
+- !private ["P13ReactiveSwift14ActionProtocol", "isEnabled"]
+- !private ["P13ReactiveSwift14ActionProtocol", "isExecuting"]
+- !private ["Ps9AnyObject", "CocoaAction"]
+- !private ["Ps9AnyObject", "Property"]
+- !private ["Ps9AnyObject", "UIScheduler"]
+- ["Ps9AnyObject", "_execute"]
+- !private ["Ps9AnyObject", "apply"]
+- ["Ps9AnyObject", "execute"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "isEnabled"]
+- ["Ps9AnyObject", "isExecuting"]
+- !private ["Ps9AnyObject", "producer"]
+- ["Ps9AnyObject", "selector"]
+- !private ["Ps9AnyObject", "value"]
+- ["Ps9AnyObject", ""]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "Error"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "Value"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "init"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "observe"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "producer"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "start"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "value"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "apply"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "isEnabled"]
+- !private ["P13ReactiveSwift21BindingTargetProtocol", "isExecuting"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "CocoaAction"]
+- !private ["Ps7CVarArg", "Property"]
+- !private ["Ps7CVarArg", "UIScheduler"]
+- ["Ps7CVarArg", "_execute"]
+- ["Ps7CVarArg", "execute"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "isEnabled"]
+- ["Ps7CVarArg", "isExecuting"]
+- ["Ps7CVarArg", "selector"]
+- ["Ps7CVarArg", ""]
+- ["C13ReactiveCocoa11CocoaAction", "Action"]
+- ["C13ReactiveCocoa11CocoaAction", "Bool"]
+- !private ["C13ReactiveCocoa11CocoaAction", "CocoaAction"]
+- ["C13ReactiveCocoa11CocoaAction", "Property"]
+- ["C13ReactiveCocoa11CocoaAction", "Selector"]
+- ["C13ReactiveCocoa11CocoaAction", "Sender"]
+- !private ["C13ReactiveCocoa11CocoaAction", "UIScheduler"]
+- ["C13ReactiveCocoa11CocoaAction", "Void"]
+- !private ["C13ReactiveCocoa11CocoaAction", "_execute"]
+- ["C13ReactiveCocoa11CocoaAction", "deinit"]
+- ["C13ReactiveCocoa11CocoaAction", "execute"]
+- ["C13ReactiveCocoa11CocoaAction", "init"]
+- ["C13ReactiveCocoa11CocoaAction", "isEnabled"]
+- ["C13ReactiveCocoa11CocoaAction", "isExecuting"]
+- ["C13ReactiveCocoa11CocoaAction", "selector"]
+- !private ["Ps28CustomDebugStringConvertible", "CocoaAction"]
+- !private ["Ps28CustomDebugStringConvertible", "Property"]
+- !private ["Ps28CustomDebugStringConvertible", "UIScheduler"]
+- ["Ps28CustomDebugStringConvertible", "_execute"]
+- ["Ps28CustomDebugStringConvertible", "execute"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "isEnabled"]
+- ["Ps28CustomDebugStringConvertible", "isExecuting"]
+- ["Ps28CustomDebugStringConvertible", "selector"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "CocoaAction"]
+- !private ["Ps23CustomStringConvertible", "Property"]
+- !private ["Ps23CustomStringConvertible", "UIScheduler"]
+- ["Ps23CustomStringConvertible", "_execute"]
+- ["Ps23CustomStringConvertible", "execute"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "isEnabled"]
+- ["Ps23CustomStringConvertible", "isExecuting"]
+- ["Ps23CustomStringConvertible", "selector"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["P13ReactiveSwift10Disposable", "deinit"]
+- !private ["Ps9Equatable", "CocoaAction"]
+- !private ["Ps9Equatable", "Property"]
+- !private ["Ps9Equatable", "UIScheduler"]
+- ["Ps9Equatable", "_execute"]
+- ["Ps9Equatable", "execute"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "isEnabled"]
+- ["Ps9Equatable", "isExecuting"]
+- ["Ps9Equatable", "selector"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "CocoaAction"]
+- !private ["Ps8Hashable", "Property"]
+- !private ["Ps8Hashable", "UIScheduler"]
+- ["Ps8Hashable", "_execute"]
+- ["Ps8Hashable", "execute"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "isEnabled"]
+- ["Ps8Hashable", "isExecuting"]
+- ["Ps8Hashable", "selector"]
+- ["Ps8Hashable", ""]
+- ["CSo8NSObject", "Action"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CocoaAction"]
+- ["CSo8NSObject", "Property"]
+- ["CSo8NSObject", "Selector"]
+- ["CSo8NSObject", "Sender"]
+- !private ["CSo8NSObject", "UIScheduler"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "_execute"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "execute"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "isEnabled"]
+- ["CSo8NSObject", "isExecuting"]
+- ["CSo8NSObject", "selector"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "CocoaAction"]
+- !private ["PSo16NSObjectProtocol", "Property"]
+- !private ["PSo16NSObjectProtocol", "UIScheduler"]
+- ["PSo16NSObjectProtocol", "_execute"]
+- ["PSo16NSObjectProtocol", "execute"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "isEnabled"]
+- ["PSo16NSObjectProtocol", "isExecuting"]
+- ["PSo16NSObjectProtocol", "selector"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Os5Never", "deinit"]
+- ["C13ReactiveSwift8Property", "deinit"]
+- !private ["C13ReactiveSwift8Property", "init"]
+- !private ["C13ReactiveSwift8Property", "producer"]
+- !private ["C13ReactiveSwift8Property", "value"]
+- !private ["P13ReactiveSwift16PropertyProtocol", "init"]
+- !private ["P13ReactiveSwift16PropertyProtocol", "producer"]
+- !private ["P13ReactiveSwift16PropertyProtocol", "value"]
+- !private ["P13ReactiveSwift26ReactiveExtensionsProvider", "CocoaAction"]
+- !private ["P13ReactiveSwift26ReactiveExtensionsProvider", "Property"]
+- !private ["P13ReactiveSwift26ReactiveExtensionsProvider", "UIScheduler"]
+- ["P13ReactiveSwift26ReactiveExtensionsProvider", "_execute"]
+- ["P13ReactiveSwift26ReactiveExtensionsProvider", "execute"]
+- ["P13ReactiveSwift26ReactiveExtensionsProvider", "init"]
+- ["P13ReactiveSwift26ReactiveExtensionsProvider", "isEnabled"]
+- ["P13ReactiveSwift26ReactiveExtensionsProvider", "isExecuting"]
+- ["P13ReactiveSwift26ReactiveExtensionsProvider", "selector"]
+- ["P13ReactiveSwift26ReactiveExtensionsProvider", ""]
+- !private ["P13ReactiveSwift17SchedulerProtocol", "init"]
+- ["V10ObjectiveC8Selector", "deinit"]
+- !private ["V13ReactiveSwift14SignalProducer", "Error"]
+- !private ["V13ReactiveSwift14SignalProducer", "Value"]
+- ["V13ReactiveSwift14SignalProducer", "deinit"]
+- !private ["V13ReactiveSwift14SignalProducer", "observe"]
+- !private ["V13ReactiveSwift14SignalProducer", "start"]
+- !private ["P13ReactiveSwift22SignalProducerProtocol", "Error"]
+- !private ["P13ReactiveSwift22SignalProducerProtocol", "Value"]
+- !private ["P13ReactiveSwift22SignalProducerProtocol", "observe"]
+- !private ["P13ReactiveSwift22SignalProducerProtocol", "start"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["C13ReactiveSwift11UIScheduler", "deinit"]
+- !private ["C13ReactiveSwift11UIScheduler", "init"]
+- ["Su", "deinit"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps9_Hashable", "CocoaAction"]
+- !private ["Ps9_Hashable", "Property"]
+- !private ["Ps9_Hashable", "UIScheduler"]
+- ["Ps9_Hashable", "_execute"]
+- ["Ps9_Hashable", "execute"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "isEnabled"]
+- ["Ps9_Hashable", "isExecuting"]
+- ["Ps9_Hashable", "selector"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "C13ReactiveSwift6Action"
+- !private "P13ReactiveSwift14ActionProtocol"
+- "Ps9AnyObject"
+- !private "P13ReactiveSwift21BindingSourceProtocol"
+- !private "P13ReactiveSwift21BindingTargetProtocol"
+- "Sb"
+- "Ps7CVarArg"
+- "C13ReactiveCocoa11CocoaAction"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "P13ReactiveSwift10Disposable"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Os5Never"
+- "C13ReactiveSwift8Property"
+- !private "P13ReactiveSwift16PropertyProtocol"
+- "P13ReactiveSwift26ReactiveExtensionsProvider"
+- !private "P13ReactiveSwift17SchedulerProtocol"
+- "V10ObjectiveC8Selector"
+- "V13ReactiveSwift14SignalProducer"
+- !private "P13ReactiveSwift22SignalProducerProtocol"
+- "Vs12StaticString"
+- "C13ReactiveSwift11UIScheduler"
+- "Su"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/Pods/ReactiveCocoa/ReactiveCocoa/ObjCRuntimeAliases.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/ReactiveCocoa/ReactiveCocoa/ReactiveCocoa.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Modules/ReactiveSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Headers/ReactiveSwift-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Intermediates/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "87212b51c1cde77a406ba69617f4445b"

@@ -1,0 +1,227 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KeyboardChangeContext"
+provides-nominal:
+- "V13ReactiveCocoa21KeyboardChangeContext"
+provides-member:
+- ["V13ReactiveCocoa21KeyboardChangeContext", ""]
+- ["V13ReactiveSwift8Reactive", ""]
+- ["V13ReactiveSwift8Reactive", "keyboardChange"]
+provides-dynamic-lookup:
+depends-top-level:
+- "CGRect"
+- "Signal"
+- "Bool"
+- "KeyboardChangeContext"
+- "Reactive"
+- "UIViewAnimationCurve"
+- "NoError"
+- "CastingPrecedence"
+- !private "UIKeyboardAnimationDurationUserInfoKey"
+- !private "UIKeyboardFrameEndUserInfoKey"
+- !private "AssignmentPrecedence"
+- !private "UIKeyboardIsLocalUserInfoKey"
+- "AnyHashable"
+- !private "UIKeyboardFrameBeginUserInfoKey"
+- !private "UIKeyboardAnimationCurveUserInfoKey"
+- "Double"
+- "NotificationCenter"
+depends-member:
+- !private ["Ps9AnyObject", "Error"]
+- !private ["Ps9AnyObject", "Value"]
+- !private ["Ps9AnyObject", "map"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "Error"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "Value"]
+- !private ["P13ReactiveSwift21BindingSourceProtocol", "map"]
+- ["Sb", "deinit"]
+- ["VSC6CGRect", "deinit"]
+- !private ["Ps7CVarArg", "Index"]
+- !private ["Ps7CVarArg", "IndexDistance"]
+- !private ["Ps7CVarArg", "SubSequence"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "UIKeyboardWillChangeFrame"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "UIKeyboardWillChangeFrame"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "userInfo"]
+- !private ["Ps17CustomReflectable", "Index"]
+- !private ["Ps17CustomReflectable", "IndexDistance"]
+- !private ["Ps17CustomReflectable", "SubSequence"]
+- !private ["Ps17CustomReflectable", "UIKeyboardWillChangeFrame"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "userInfo"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "userInfo"]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "IndexDistance"]
+- !private ["Vs10Dictionary", "SubSequence"]
+- !private ["Vs10Dictionary", "_Element"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- ["Sd", "deinit"]
+- !private ["Ps9Equatable", "UIKeyboardWillChangeFrame"]
+- !private ["Ps9Equatable", "userInfo"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Index"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "IndexDistance"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "SubSequence"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "_Element"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps23ExpressibleByNilLiteral", "UIKeyboardWillChangeFrame"]
+- !private ["Ps8Hashable", "UIKeyboardWillChangeFrame"]
+- !private ["Ps8Hashable", "userInfo"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- ["V13ReactiveCocoa21KeyboardChangeContext", "AnyHashable"]
+- ["V13ReactiveCocoa21KeyboardChangeContext", "Bool"]
+- ["V13ReactiveCocoa21KeyboardChangeContext", "CGRect"]
+- ["V13ReactiveCocoa21KeyboardChangeContext", "Double"]
+- !private ["V13ReactiveCocoa21KeyboardChangeContext", "UIKeyboardAnimationCurveUserInfoKey"]
+- !private ["V13ReactiveCocoa21KeyboardChangeContext", "UIKeyboardAnimationDurationUserInfoKey"]
+- !private ["V13ReactiveCocoa21KeyboardChangeContext", "UIKeyboardFrameBeginUserInfoKey"]
+- !private ["V13ReactiveCocoa21KeyboardChangeContext", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["V13ReactiveCocoa21KeyboardChangeContext", "UIKeyboardIsLocalUserInfoKey"]
+- ["V13ReactiveCocoa21KeyboardChangeContext", "UIViewAnimationCurve"]
+- ["V13ReactiveCocoa21KeyboardChangeContext", "animationCurve"]
+- ["V13ReactiveCocoa21KeyboardChangeContext", "animationDuration"]
+- !private ["V13ReactiveCocoa21KeyboardChangeContext", "base"]
+- ["V13ReactiveCocoa21KeyboardChangeContext", "beginFrame"]
+- ["V13ReactiveCocoa21KeyboardChangeContext", "deinit"]
+- ["V13ReactiveCocoa21KeyboardChangeContext", "endFrame"]
+- !private ["V13ReactiveCocoa21KeyboardChangeContext", "init"]
+- ["V13ReactiveCocoa21KeyboardChangeContext", "isLocal"]
+- !private ["VCSo14NSNotification4Name", "UIKeyboardWillChangeFrame"]
+- !private ["V10Foundation12Notification", "deinit"]
+- !private ["V10Foundation12Notification", "userInfo"]
+- !private ["Sq", "UIKeyboardWillChangeFrame"]
+- ["Sq", "deinit"]
+- !private ["P13ReactiveSwift16OptionalProtocol", "UIKeyboardWillChangeFrame"]
+- !private ["Ps16RawRepresentable", "UIKeyboardWillChangeFrame"]
+- ["V13ReactiveSwift8Reactive", "KeyboardChangeContext"]
+- ["V13ReactiveSwift8Reactive", "NoError"]
+- ["V13ReactiveSwift8Reactive", "NotificationCenter"]
+- ["V13ReactiveSwift8Reactive", "Signal"]
+- ["V13ReactiveSwift8Reactive", "deinit"]
+- ["V13ReactiveSwift8Reactive", "keyboardChange"]
+- !private ["V13ReactiveSwift8Reactive", "notifications"]
+- !private ["P10Foundation20ReferenceConvertible", "userInfo"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["C13ReactiveSwift6Signal", "Error"]
+- !private ["C13ReactiveSwift6Signal", "Value"]
+- ["C13ReactiveSwift6Signal", "deinit"]
+- !private ["C13ReactiveSwift6Signal", "map"]
+- !private ["P13ReactiveSwift14SignalProtocol", "Error"]
+- !private ["P13ReactiveSwift14SignalProtocol", "Value"]
+- !private ["P13ReactiveSwift14SignalProtocol", "map"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- ["SS", "deinit"]
+- ["OSC20UIViewAnimationCurve", "deinit"]
+- !private ["Ps9_Hashable", "UIKeyboardWillChangeFrame"]
+- !private ["Ps9_Hashable", "userInfo"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "UIKeyboardWillChangeFrame"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "userInfo"]
+- !private ["Ps20_SwiftNewtypeWrapper", "UIKeyboardWillChangeFrame"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "P13ReactiveSwift21BindingSourceProtocol"
+- "Sb"
+- "VSC6CGRect"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Sd"
+- !private "Ps9Equatable"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Ps16IteratorProtocol"
+- "V13ReactiveCocoa21KeyboardChangeContext"
+- !private "VCSo14NSNotification4Name"
+- !private "V10Foundation12Notification"
+- "Sq"
+- !private "P13ReactiveSwift16OptionalProtocol"
+- !private "Ps16RawRepresentable"
+- "V13ReactiveSwift8Reactive"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- "C13ReactiveSwift6Signal"
+- !private "P13ReactiveSwift14SignalProtocol"
+- !private "Vs5Slice"
+- "SS"
+- "OSC20UIViewAnimationCurve"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/Pods/ReactiveCocoa/ReactiveCocoa/ObjCRuntimeAliases.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/ReactiveCocoa/ReactiveCocoa/ReactiveCocoa.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Modules/ReactiveSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Headers/ReactiveSwift-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Intermediates/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "c87c383dd839a7699673b91490e2e1ef"

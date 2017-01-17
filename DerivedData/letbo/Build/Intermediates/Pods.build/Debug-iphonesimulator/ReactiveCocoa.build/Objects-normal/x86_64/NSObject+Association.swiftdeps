@@ -1,0 +1,216 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AssociationKey"
+- "Associations"
+- "unsafeSetAssociatedValue"
+provides-nominal:
+- "V13ReactiveCocoa14AssociationKey"
+- "V13ReactiveCocoa12Associations"
+provides-member:
+- ["V13ReactiveCocoa14AssociationKey", ""]
+- ["V13ReactiveCocoa12Associations", ""]
+- ["V13ReactiveSwift8Reactive", ""]
+- ["CSo8NSObject", ""]
+- ["V13ReactiveSwift8Reactive", "associatedValue"]
+- ["CSo8NSObject", "associations"]
+- ["V13ReactiveCocoa12Associations", "value"]
+- ["V13ReactiveCocoa12Associations", "value"]
+- ["V13ReactiveCocoa12Associations", "setValue"]
+- ["V13ReactiveCocoa12Associations", "setValue"]
+provides-dynamic-lookup:
+depends-top-level:
+- "StaticString"
+- "unsafeSetAssociatedValue"
+- !private "UnsafeMutablePointer"
+- !private "??"
+- !private "UInt8"
+- "NSObject"
+- "Selector"
+- "AssociationKey"
+- !private "StringLiteralType"
+- !private "objc_getAssociatedObject"
+- !private "objc_setAssociatedObject"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Reactive"
+- "CastingPrecedence"
+- !private "_rac_objc_setAssociatedObject"
+- "UnsafeRawPointer"
+- !private "assert"
+- "Associations"
+depends-member:
+- !private ["Ps9AnyObject", "Associations"]
+- ["V13ReactiveCocoa14AssociationKey", "Selector"]
+- ["V13ReactiveCocoa14AssociationKey", "StaticString"]
+- !private ["V13ReactiveCocoa14AssociationKey", "UInt8"]
+- !private ["V13ReactiveCocoa14AssociationKey", "UnsafeMutablePointer"]
+- ["V13ReactiveCocoa14AssociationKey", "UnsafeRawPointer"]
+- ["V13ReactiveCocoa14AssociationKey", "Value"]
+- !private ["V13ReactiveCocoa14AssociationKey", "address"]
+- !private ["V13ReactiveCocoa14AssociationKey", "assert"]
+- !private ["V13ReactiveCocoa14AssociationKey", "default"]
+- ["V13ReactiveCocoa14AssociationKey", "deinit"]
+- ["V13ReactiveCocoa14AssociationKey", "init"]
+- ["V13ReactiveCocoa12Associations", "AssociationKey"]
+- ["V13ReactiveCocoa12Associations", "Base"]
+- !private ["V13ReactiveCocoa12Associations", "base"]
+- ["V13ReactiveCocoa12Associations", "deinit"]
+- ["V13ReactiveCocoa12Associations", "init"]
+- !private ["V13ReactiveCocoa12Associations", "objc_getAssociatedObject"]
+- !private ["V13ReactiveCocoa12Associations", "objc_setAssociatedObject"]
+- ["V13ReactiveCocoa12Associations", "setValue"]
+- ["V13ReactiveCocoa12Associations", "value"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Associations"]
+- !private ["Ps7CVarArg", "allocate"]
+- !private ["Ps10Comparable", "allocate"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Associations"]
+- !private ["Ps28CustomDebugStringConvertible", "allocate"]
+- !private ["Ps28CustomDebugStringConvertible", "hasPointerRepresentation"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "utf8Start"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "allocate"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "allocate"]
+- !private ["Ps17CustomReflectable", "hasPointerRepresentation"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "utf8Start"]
+- !private ["Ps23CustomStringConvertible", "Associations"]
+- !private ["Ps23CustomStringConvertible", "hasPointerRepresentation"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "utf8Start"]
+- !private ["Ps9Equatable", "Associations"]
+- !private ["Ps9Equatable", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["Ps9Equatable", "allocate"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "utf8Start"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "hasPointerRepresentation"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "utf8Start"]
+- !private ["Ps26ExpressibleByStringLiteral", "hasPointerRepresentation"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "utf8Start"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "hasPointerRepresentation"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "utf8Start"]
+- !private ["Ps8Hashable", "Associations"]
+- !private ["Ps8Hashable", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["Ps8Hashable", "allocate"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "utf8Start"]
+- ["SQ", "deinit"]
+- ["Si", "deinit"]
+- ["CSo8NSObject", "Associations"]
+- ["CSo8NSObject", "NSObject"]
+- ["CSo8NSObject", "associations"]
+- ["CSo8NSObject", "deinit"]
+- !private ["PSo16NSObjectProtocol", "Associations"]
+- ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["V13ReactiveSwift8Reactive", "AssociationKey"]
+- ["V13ReactiveSwift8Reactive", "Base"]
+- ["V13ReactiveSwift8Reactive", "NSObject"]
+- ["V13ReactiveSwift8Reactive", "StaticString"]
+- ["V13ReactiveSwift8Reactive", "associatedValue"]
+- !private ["V13ReactiveSwift8Reactive", "base"]
+- ["V13ReactiveSwift8Reactive", "deinit"]
+- !private ["P13ReactiveSwift26ReactiveExtensionsProvider", "Associations"]
+- ["V10ObjectiveC8Selector", "deinit"]
+- !private ["V10ObjectiveC8Selector", "utf8Start"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "hasPointerRepresentation"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Vs12StaticString", "utf8Start"]
+- !private ["Ps10Strideable", "allocate"]
+- !private ["Ps10Strideable", "init"]
+- ["Su", "deinit"]
+- !private ["Sp", "allocate"]
+- ["Sp", "deinit"]
+- ["SP", "deinit"]
+- ["SV", "deinit"]
+- !private ["SV", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "hasPointerRepresentation"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "utf8Start"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "hasPointerRepresentation"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "utf8Start"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "hasPointerRepresentation"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "utf8Start"]
+- !private ["Ps9_Hashable", "Associations"]
+- !private ["Ps9_Hashable", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["Ps9_Hashable", "allocate"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "utf8Start"]
+- !private ["Ps8_Pointer", "allocate"]
+- !private ["Ps8_Pointer", "init"]
+- !private ["Ps11_Strideable", "allocate"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["OSC22objc_AssociationPolicy", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- ["OSC22objc_AssociationPolicy", "deinit"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "V13ReactiveCocoa14AssociationKey"
+- "V13ReactiveCocoa12Associations"
+- "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- "SQ"
+- "Si"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- "V13ReactiveSwift8Reactive"
+- !private "P13ReactiveSwift26ReactiveExtensionsProvider"
+- "V10ObjectiveC8Selector"
+- "Vs12StaticString"
+- !private "Ps10Strideable"
+- "Su"
+- "Sp"
+- "SP"
+- "SV"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps8_Pointer"
+- !private "Ps11_Strideable"
+- "OSC22objc_AssociationPolicy"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/Pods/ReactiveCocoa/ReactiveCocoa/ObjCRuntimeAliases.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/ReactiveCocoa/ReactiveCocoa/ReactiveCocoa.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Modules/ReactiveSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Headers/ReactiveSwift-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Intermediates/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "9830df900411875af4f272afc9ca0d6b"

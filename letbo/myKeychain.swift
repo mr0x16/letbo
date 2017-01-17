@@ -23,9 +23,13 @@ class myKeychain: NSObject {
         log.addDestination(console)
         
         do {
-            let res = try keychain.getString(key)! as String
+            let value = try keychain.getString(key)
+            guard value != nil else {
+                return nil
+            }
             log.verbose("\(key) has getted success!")
-            return res
+            return value!
+            
         } catch is Error {
             log.error("\(key) has not getted success!")
             return nil

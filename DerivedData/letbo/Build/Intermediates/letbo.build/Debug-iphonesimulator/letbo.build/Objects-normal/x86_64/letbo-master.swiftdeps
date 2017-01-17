@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "769a55724839b161536ec45e8aed5d73"
+build_time: [537897369, 296812000]
+inputs:
+  "/Users/maxuesong/Documents/git/letbo/letbo/myKeychain.swift": [537888071, 0]
+  "/Users/maxuesong/Documents/git/letbo/letbo/testViewController.swift": [537892309, 0]
+  "/Users/maxuesong/Documents/git/letbo/letbo/ViewController.swift": [537203865, 0]
+  "/Users/maxuesong/Documents/git/letbo/letbo/homeViewController.swift": [536514180, 0]
+  "/Users/maxuesong/Documents/git/letbo/letbo/AppDelegate.swift": [537897369, 0]
+  "/Users/maxuesong/Documents/git/letbo/letbo/hotViewController.swift": [536513945, 0]
+  "/Users/maxuesong/Documents/git/letbo/letbo/weiboGetRequest.swift": [537888260, 0]
+  "/Users/maxuesong/Documents/git/letbo/letbo/feedViewController.swift": [537897356, 0]

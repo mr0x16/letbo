@@ -62,14 +62,14 @@ class weiboGetRequest: NSObject,RequestRetrier,RequestAdapter,WeiboSDKDelegate {
         default:
             break
         }
-        let token = myKeychain.getKeychain(key: "access_Token")! as String
-        
-        log.verbose(token)
         
     }
     
     func adapt(_ urlRequest: URLRequest) throws -> URLRequest {
         var urlRequest = urlRequest
+        guard myKeychain.getKeychain(key: "access_Token") != nil else {
+            return urlRequest
+        }
         let access_Token = myKeychain.getKeychain(key: "access_Token")! as String
         urlRequest.url = URL(string: "\(urlRequest.url!.absoluteString)&access_token=\(access_Token)")
         NSLog(urlRequest.url!.absoluteString)

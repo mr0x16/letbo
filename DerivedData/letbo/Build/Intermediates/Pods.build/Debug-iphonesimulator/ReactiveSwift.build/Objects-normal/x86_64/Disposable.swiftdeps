@@ -1,0 +1,490 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Disposable"
+- "AnyDisposable"
+- "SimpleDisposable"
+- "ActionDisposable"
+- "CompositeDisposable"
+- "ScopedDisposable"
+- "SerialDisposable"
+- "+="
+- "+="
+- "+="
+- "+="
+provides-nominal:
+- "P13ReactiveSwift10Disposable"
+- "C13ReactiveSwift13AnyDisposable"
+- "C13ReactiveSwift16SimpleDisposable"
+- "C13ReactiveSwift16ActionDisposable"
+- "C13ReactiveSwift19CompositeDisposable"
+- "CC13ReactiveSwift19CompositeDisposable16DisposableHandle"
+- "C13ReactiveSwift16ScopedDisposable"
+- "C13ReactiveSwift16SerialDisposable"
+provides-member:
+- ["P13ReactiveSwift10Disposable", ""]
+- ["C13ReactiveSwift13AnyDisposable", ""]
+- ["C13ReactiveSwift16SimpleDisposable", ""]
+- ["C13ReactiveSwift16ActionDisposable", ""]
+- ["C13ReactiveSwift19CompositeDisposable", ""]
+- ["CC13ReactiveSwift19CompositeDisposable16DisposableHandle", ""]
+- ["C13ReactiveSwift16ScopedDisposable", ""]
+- ["C13ReactiveSwift16SerialDisposable", ""]
+- ["C13ReactiveSwift16ScopedDisposable", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- "ScopedDisposable"
+- "DisposableState"
+- "Bag"
+- "ActionDisposable"
+- "+="
+- "UnsafeAtomicState"
+- !private "Int32"
+- "SerialDisposable"
+- "Bool"
+- "AnyDisposable"
+- "CompositeDisposable"
+- !private "~="
+- !private "=="
+- "RemovalToken"
+- "AssignmentPrecedence"
+- "Void"
+- "AtomicStateProtocol"
+- "SimpleDisposable"
+- "Disposable"
+- "Sequence"
+- "IntegerLiteralType"
+- "Atomic"
+- "FloatLiteralType"
+depends-member:
+- ["C13ReactiveSwift16ActionDisposable", "Bool"]
+- ["C13ReactiveSwift16ActionDisposable", "DisposableState"]
+- ["C13ReactiveSwift16ActionDisposable", "UnsafeAtomicState"]
+- ["C13ReactiveSwift16ActionDisposable", "Void"]
+- !private ["C13ReactiveSwift16ActionDisposable", "action"]
+- ["C13ReactiveSwift16ActionDisposable", "deinit"]
+- ["C13ReactiveSwift16ActionDisposable", "dispose"]
+- ["C13ReactiveSwift16ActionDisposable", "init"]
+- ["C13ReactiveSwift16ActionDisposable", "isDisposed"]
+- !private ["C13ReactiveSwift16ActionDisposable", "state"]
+- ["C13ReactiveSwift13AnyDisposable", "Bool"]
+- ["C13ReactiveSwift13AnyDisposable", "Disposable"]
+- ["C13ReactiveSwift13AnyDisposable", "deinit"]
+- !private ["C13ReactiveSwift13AnyDisposable", "disposable"]
+- ["C13ReactiveSwift13AnyDisposable", "dispose"]
+- ["C13ReactiveSwift13AnyDisposable", "init"]
+- ["C13ReactiveSwift13AnyDisposable", "isDisposed"]
+- !private ["Ps9AnyObject", "ActionDisposable"]
+- ["Ps9AnyObject", "AnyDisposable"]
+- !private ["Ps9AnyObject", "Atomic"]
+- !private ["Ps9AnyObject", "Bag"]
+- !private ["Ps9AnyObject", "Disposable"]
+- ["Ps9AnyObject", "DisposableHandle"]
+- ["Ps9AnyObject", "DisposableState"]
+- !private ["Ps9AnyObject", "Inner"]
+- ["Ps9AnyObject", "UnsafeAtomicState"]
+- !private ["Ps9AnyObject", "Value"]
+- !private ["Ps9AnyObject", "_inner"]
+- !private ["Ps9AnyObject", "action"]
+- !private ["Ps9AnyObject", "add"]
+- !private ["Ps9AnyObject", "bagToken"]
+- !private ["Ps9AnyObject", "disposable"]
+- !private ["Ps9AnyObject", "disposables"]
+- ["Ps9AnyObject", "dispose"]
+- !private ["Ps9AnyObject", "empty"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "inner"]
+- ["Ps9AnyObject", "isDisposed"]
+- !private ["Ps9AnyObject", "modify"]
+- !private ["Ps9AnyObject", "state"]
+- !private ["Ps9AnyObject", "swap"]
+- !private ["Ps9AnyObject", "value"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- ["Sa", "deinit"]
+- !private ["Sa", "init"]
+- !private ["C13ReactiveSwift6Atomic", "Value"]
+- ["C13ReactiveSwift6Atomic", "deinit"]
+- !private ["C13ReactiveSwift6Atomic", "init"]
+- !private ["C13ReactiveSwift6Atomic", "modify"]
+- !private ["C13ReactiveSwift6Atomic", "swap"]
+- !private ["C13ReactiveSwift6Atomic", "value"]
+- !private ["P13ReactiveSwift14AtomicProtocol", "Value"]
+- !private ["P13ReactiveSwift14AtomicProtocol", "init"]
+- !private ["P13ReactiveSwift14AtomicProtocol", "modify"]
+- !private ["P13ReactiveSwift14AtomicProtocol", "swap"]
+- !private ["P13ReactiveSwift14AtomicProtocol", "value"]
+- !private ["P13ReactiveSwift19AtomicStateProtocol", "Bool"]
+- ["P13ReactiveSwift19AtomicStateProtocol", "DisposableState"]
+- ["P13ReactiveSwift19AtomicStateProtocol", "State"]
+- !private ["P13ReactiveSwift19AtomicStateProtocol", "deinitialize"]
+- ["P13ReactiveSwift19AtomicStateProtocol", "init"]
+- !private ["P13ReactiveSwift19AtomicStateProtocol", "is"]
+- !private ["P13ReactiveSwift19AtomicStateProtocol", "tryDispose"]
+- !private ["P13ReactiveSwift19AtomicStateProtocol", "tryTransiting"]
+- !private ["V13ReactiveSwift3Bag", "Iterator"]
+- ["V13ReactiveSwift3Bag", "deinit"]
+- !private ["V13ReactiveSwift3Bag", "init"]
+- !private ["V13ReactiveSwift3Bag", "insert"]
+- !private ["V13ReactiveSwift3Bag", "remove"]
+- !private ["V13ReactiveSwift11BagIterator", "Element"]
+- !private ["V13ReactiveSwift11BagIterator", "deinit"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "init"]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Vs11ClosedRange", "deinit"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "insert"]
+- !private ["Ps10Collection", "remove"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["C13ReactiveSwift19CompositeDisposable", "ActionDisposable"]
+- ["C13ReactiveSwift19CompositeDisposable", "Atomic"]
+- ["C13ReactiveSwift19CompositeDisposable", "Bag"]
+- ["C13ReactiveSwift19CompositeDisposable", "Bool"]
+- ["C13ReactiveSwift19CompositeDisposable", "CompositeDisposable"]
+- ["C13ReactiveSwift19CompositeDisposable", "Disposable"]
+- ["C13ReactiveSwift19CompositeDisposable", "DisposableHandle"]
+- ["C13ReactiveSwift19CompositeDisposable", "DisposableState"]
+- ["C13ReactiveSwift19CompositeDisposable", "RemovalToken"]
+- ["C13ReactiveSwift19CompositeDisposable", "Sequence"]
+- ["C13ReactiveSwift19CompositeDisposable", "UnsafeAtomicState"]
+- ["C13ReactiveSwift19CompositeDisposable", "Void"]
+- ["C13ReactiveSwift19CompositeDisposable", "add"]
+- ["C13ReactiveSwift19CompositeDisposable", "deinit"]
+- !private ["C13ReactiveSwift19CompositeDisposable", "disposables"]
+- ["C13ReactiveSwift19CompositeDisposable", "dispose"]
+- ["C13ReactiveSwift19CompositeDisposable", "init"]
+- ["C13ReactiveSwift19CompositeDisposable", "isDisposed"]
+- !private ["C13ReactiveSwift19CompositeDisposable", "state"]
+- !private ["Vs20CountableClosedRange", "deinit"]
+- !private ["Vs14CountableRange", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["P13ReactiveSwift10Disposable", "ActionDisposable"]
+- ["P13ReactiveSwift10Disposable", "AnyDisposable"]
+- !private ["P13ReactiveSwift10Disposable", "Atomic"]
+- !private ["P13ReactiveSwift10Disposable", "Bag"]
+- ["P13ReactiveSwift10Disposable", "Bool"]
+- !private ["P13ReactiveSwift10Disposable", "Disposable"]
+- ["P13ReactiveSwift10Disposable", "DisposableHandle"]
+- ["P13ReactiveSwift10Disposable", "DisposableState"]
+- !private ["P13ReactiveSwift10Disposable", "Inner"]
+- ["P13ReactiveSwift10Disposable", "UnsafeAtomicState"]
+- !private ["P13ReactiveSwift10Disposable", "_inner"]
+- !private ["P13ReactiveSwift10Disposable", "action"]
+- !private ["P13ReactiveSwift10Disposable", "add"]
+- ["P13ReactiveSwift10Disposable", "deinit"]
+- !private ["P13ReactiveSwift10Disposable", "disposable"]
+- !private ["P13ReactiveSwift10Disposable", "disposables"]
+- ["P13ReactiveSwift10Disposable", "dispose"]
+- !private ["P13ReactiveSwift10Disposable", "init"]
+- !private ["P13ReactiveSwift10Disposable", "inner"]
+- ["P13ReactiveSwift10Disposable", "isDisposed"]
+- !private ["P13ReactiveSwift10Disposable", "state"]
+- ["P13ReactiveSwift10Disposable", ""]
+- ["CC13ReactiveSwift19CompositeDisposable16DisposableHandle", "CompositeDisposable"]
+- ["CC13ReactiveSwift19CompositeDisposable16DisposableHandle", "DisposableHandle"]
+- ["CC13ReactiveSwift19CompositeDisposable16DisposableHandle", "DisposableState"]
+- ["CC13ReactiveSwift19CompositeDisposable16DisposableHandle", "RemovalToken"]
+- ["CC13ReactiveSwift19CompositeDisposable16DisposableHandle", "UnsafeAtomicState"]
+- !private ["CC13ReactiveSwift19CompositeDisposable16DisposableHandle", "bagToken"]
+- ["CC13ReactiveSwift19CompositeDisposable16DisposableHandle", "deinit"]
+- !private ["CC13ReactiveSwift19CompositeDisposable16DisposableHandle", "disposable"]
+- !private ["CC13ReactiveSwift19CompositeDisposable16DisposableHandle", "empty"]
+- ["CC13ReactiveSwift19CompositeDisposable16DisposableHandle", "init"]
+- ["CC13ReactiveSwift19CompositeDisposable16DisposableHandle", "remove"]
+- !private ["CC13ReactiveSwift19CompositeDisposable16DisposableHandle", "state"]
+- ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "active"]
+- !private ["Ps9Equatable", "disposed"]
+- !private ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps23ExpressibleByNilLiteral", "Iterator"]
+- !private ["Ps23ExpressibleByNilLiteral", "map"]
+- ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "active"]
+- !private ["Ps8Hashable", "disposed"]
+- !private ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "insert"]
+- !private ["Ps9Indexable", "remove"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "init"]
+- !private ["Ps13IndexableBase", "insert"]
+- !private ["Ps13IndexableBase", "remove"]
+- !private ["Vs16IndexingIterator", "Element"]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Vs5Int32", "Stride"]
+- ["Vs5Int32", "deinit"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "init"]
+- !private ["Sq", "Iterator"]
+- ["Sq", "deinit"]
+- !private ["Sq", "map"]
+- !private ["P13ReactiveSwift16OptionalProtocol", "Iterator"]
+- !private ["P13ReactiveSwift16OptionalProtocol", "map"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "init"]
+- !private ["Vs5Range", "deinit"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "init"]
+- ["Ps16RawRepresentable", "RawValue"]
+- !private ["Ps16RawRepresentable", "_toAnyHashable"]
+- ["Ps16RawRepresentable", "active"]
+- !private ["Ps16RawRepresentable", "disposed"]
+- !private ["Ps16RawRepresentable", "hashValue"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- !private ["Ps16RawRepresentable", ""]
+- ["C13ReactiveSwift12RemovalToken", "deinit"]
+- ["C13ReactiveSwift16ScopedDisposable", "AnyDisposable"]
+- ["C13ReactiveSwift16ScopedDisposable", "Bool"]
+- ["C13ReactiveSwift16ScopedDisposable", "Disposable"]
+- ["C13ReactiveSwift16ScopedDisposable", "Inner"]
+- ["C13ReactiveSwift16ScopedDisposable", "deinit"]
+- ["C13ReactiveSwift16ScopedDisposable", "dispose"]
+- ["C13ReactiveSwift16ScopedDisposable", "init"]
+- ["C13ReactiveSwift16ScopedDisposable", "inner"]
+- ["C13ReactiveSwift16ScopedDisposable", "isDisposed"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "flatMap"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "insert"]
+- !private ["Ps8Sequence", "remove"]
+- ["C13ReactiveSwift16SerialDisposable", "Atomic"]
+- ["C13ReactiveSwift16SerialDisposable", "Bool"]
+- ["C13ReactiveSwift16SerialDisposable", "Disposable"]
+- ["C13ReactiveSwift16SerialDisposable", "DisposableState"]
+- ["C13ReactiveSwift16SerialDisposable", "UnsafeAtomicState"]
+- !private ["C13ReactiveSwift16SerialDisposable", "_inner"]
+- ["C13ReactiveSwift16SerialDisposable", "deinit"]
+- ["C13ReactiveSwift16SerialDisposable", "dispose"]
+- ["C13ReactiveSwift16SerialDisposable", "init"]
+- ["C13ReactiveSwift16SerialDisposable", "inner"]
+- ["C13ReactiveSwift16SerialDisposable", "isDisposed"]
+- !private ["C13ReactiveSwift16SerialDisposable", "state"]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "Stride"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- ["C13ReactiveSwift16SimpleDisposable", "Bool"]
+- ["C13ReactiveSwift16SimpleDisposable", "DisposableState"]
+- ["C13ReactiveSwift16SimpleDisposable", "UnsafeAtomicState"]
+- ["C13ReactiveSwift16SimpleDisposable", "deinit"]
+- ["C13ReactiveSwift16SimpleDisposable", "dispose"]
+- ["C13ReactiveSwift16SimpleDisposable", "init"]
+- ["C13ReactiveSwift16SimpleDisposable", "isDisposed"]
+- !private ["C13ReactiveSwift16SimpleDisposable", "state"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["V13ReactiveSwift17UnsafeAtomicState", "State"]
+- ["V13ReactiveSwift17UnsafeAtomicState", "deinit"]
+- !private ["V13ReactiveSwift17UnsafeAtomicState", "deinitialize"]
+- ["V13ReactiveSwift17UnsafeAtomicState", "init"]
+- !private ["V13ReactiveSwift17UnsafeAtomicState", "is"]
+- !private ["V13ReactiveSwift17UnsafeAtomicState", "tryDispose"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps9_Hashable", "RawValue"]
+- !private ["Ps9_Hashable", "Stride"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "active"]
+- !private ["Ps9_Hashable", "disposed"]
+- !private ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "map"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "Stride"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "C13ReactiveSwift16ActionDisposable"
+- "C13ReactiveSwift13AnyDisposable"
+- "Ps9AnyObject"
+- "Sa"
+- "C13ReactiveSwift6Atomic"
+- !private "P13ReactiveSwift14AtomicProtocol"
+- "P13ReactiveSwift19AtomicStateProtocol"
+- "V13ReactiveSwift3Bag"
+- !private "V13ReactiveSwift11BagIterator"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- !private "Ps7CVarArg"
+- !private "Vs11ClosedRange"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "C13ReactiveSwift19CompositeDisposable"
+- !private "Vs20CountableClosedRange"
+- !private "Vs14CountableRange"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "P13ReactiveSwift10Disposable"
+- "CC13ReactiveSwift19CompositeDisposable16DisposableHandle"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- "Vs5Int32"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "Sq"
+- !private "P13ReactiveSwift16OptionalProtocol"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Vs5Range"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "Ps16RawRepresentable"
+- "C13ReactiveSwift12RemovalToken"
+- "C13ReactiveSwift16ScopedDisposable"
+- !private "Ps8Sequence"
+- "C13ReactiveSwift16SerialDisposable"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- "C13ReactiveSwift16SimpleDisposable"
+- !private "Ps10Strideable"
+- "V13ReactiveSwift17UnsafeAtomicState"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Intermediates/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/maxuesong/Documents/git/letbo/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/maxuesong/Documents/git/letbo/DerivedData/letbo/Build/Intermediates/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+interface-hash: "b636a39286f68fc5fc930d85a8923a98"
