@@ -44,7 +44,18 @@ class feedViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         feedList.estimatedRowHeight = 100
         feedList.rowHeight = UITableViewAutomaticDimension
         feedList.addSubview(refreshView)
-        
+        let replaceFrame = refreshView.bounds
+        let replaceView = UIView()
+        replaceView.backgroundColor = UIColor.red
+        refreshView.backgroundColor = UIColor.clear
+        refreshView.tintColor = UIColor.clear
+        refreshView.subviews[0].removeFromSuperview()
+        refreshView.addSubview(replaceView)
+        replaceView.snp.makeConstraints { (make) in
+            make.width.height.equalTo(60)
+            make.centerX.equalTo(refreshView.snp.centerX)
+            make.centerY.equalTo(refreshView.snp.centerY)
+        }
         log.addDestination(console)
         
         self.dataUpdate(insertFlag: true)
