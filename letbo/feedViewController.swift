@@ -19,6 +19,7 @@ class feedViewController: UIViewController, UITableViewDelegate,UITableViewDataS
     var since_id:String = "0"
     var  max_id:String = "0"
     let updateCount:String = "20"
+    let refreshView = UIRefreshControl()
     
     
     var updateStaute:Bool = false {
@@ -36,12 +37,13 @@ class feedViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         feedList.snp.makeConstraints { (make) in
             make.edges.equalTo(view.snp.edges)
         }
-
+        
         feedList.separatorStyle = .singleLineEtched
         feedList.delegate = self
         feedList.dataSource = self
         feedList.estimatedRowHeight = 100
         feedList.rowHeight = UITableViewAutomaticDimension
+        feedList.addSubview(refreshView)
         
         log.addDestination(console)
         
@@ -84,11 +86,16 @@ class feedViewController: UIViewController, UITableViewDelegate,UITableViewDataS
                     DispatchQueue.main.async {
                         weakSelf?.feedList.reloadData()
                     }
-                    break
                 }
-                
+                break
             case .failure(let error):
                 self.log.error(error)
+            }
+            
+            if self.refreshView.isRefreshing {
+                DispatchQueue.main.async(execute: {
+                    self.refreshView.endRefreshing()
+                })
             }
         })
     }
@@ -117,9 +124,11 @@ class feedViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         NSLog("view have in edge")
         NSLog("\(scrollView.contentOffset.y)")
         let offSet = scrollView.contentOffset.y
-        if offSet == 0 {
+        if offSet <= 0 {
             self.updateStaute = true
+//            self.refreshView.beginRefreshing()
         }
+        
         if offSet == scrollView.contentSize.height - scrollView.frame.size.height {
             self.updateStaute = false
         }

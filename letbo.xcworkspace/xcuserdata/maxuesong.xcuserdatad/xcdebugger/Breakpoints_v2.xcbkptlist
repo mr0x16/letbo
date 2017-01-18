@@ -234,11 +234,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "Yes"
             filePath = "letbo/feedViewController.swift"
-            timestampString = "506365227.398721"
+            timestampString = "506448574.888449"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
             <Actions>
@@ -255,52 +255,6 @@
                   </ActionContent>
                </BreakpointActionProxy>
             </Actions>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "letbo/feedViewController.swift"
-            timestampString = "506363949.990365"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "letbo.feedViewController.(dataUpdate () -&gt; ()).(closure #1)"
-                  moduleName = "letbo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maxuesong/Documents/git/letbo/letbo/feedViewController.swift"
-                  timestampString = "506268816.812093"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "1428">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "letbo.feedViewController.(dataUpdate () -&gt; ()).(closure #1).(implicit closure #1)"
-                  moduleName = "letbo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maxuesong/Documents/git/letbo/letbo/feedViewController.swift"
-                  timestampString = "506268816.813093"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "19">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -326,52 +280,188 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "letbo/feedViewController.swift"
-            timestampString = "506365227.398721"
+            timestampString = "506448574.888449"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "123"
-            endingLineNumber = "123"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "dataUpdate(insertFlag:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "letbo.feedViewController.(dataUpdate (insertFlag : Swift.Bool) -&gt; ()).(closure #1)"
+                  moduleName = "letbo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maxuesong/Documents/git/letbo/letbo/feedViewController.swift"
+                  timestampString = "506448630.927726"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "7830">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "letbo.feedViewController.(dataUpdate (insertFlag : Swift.Bool) -&gt; ()).(closure #1).(closure #2)"
+                  moduleName = "letbo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maxuesong/Documents/git/letbo/letbo/feedViewController.swift"
+                  timestampString = "506448630.928792"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "42">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "letbo/feedViewController.swift"
+            timestampString = "506448214.888432"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "dataUpdate(insertFlag:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "letbo/feedViewController.swift"
+            timestampString = "506448273.231557"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "dataUpdate(insertFlag:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "letbo.feedViewController.dataUpdate (insertFlag : Swift.Bool) -&gt; ()"
+                  moduleName = "letbo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maxuesong/Documents/git/letbo/letbo/feedViewController.swift"
+                  timestampString = "506448438.291534"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "806">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "letbo.feedViewController.(dataUpdate (insertFlag : Swift.Bool) -&gt; ()).(closure #1)"
+                  moduleName = "letbo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maxuesong/Documents/git/letbo/letbo/feedViewController.swift"
+                  timestampString = "506448438.292533"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "39">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "letbo/feedViewController.swift"
+            timestampString = "506448276.009873"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "dataUpdate(insertFlag:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "letbo/feedViewController.swift"
+            timestampString = "506448574.888449"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "dataUpdate(insertFlag:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "letbo.feedViewController.(dataUpdate (insertFlag : Swift.Bool) -&gt; ()).(closure #1)"
+                  moduleName = "letbo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maxuesong/Documents/git/letbo/letbo/feedViewController.swift"
+                  timestampString = "506448630.933323"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "7606">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "letbo.feedViewController.(dataUpdate (insertFlag : Swift.Bool) -&gt; ()).(closure #1).(closure #2)"
+                  moduleName = "letbo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maxuesong/Documents/git/letbo/letbo/feedViewController.swift"
+                  timestampString = "506448630.934265"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "letbo/feedViewController.swift"
+            timestampString = "506448629.892537"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
             landmarkName = "scrollViewDidEndDecelerating(_:)"
-            landmarkType = "7">
-            <Actions>
-               <BreakpointActionProxy
-                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
-                  <ActionContent
-                     consoleCommand = "po scrollView.contentSize">
-                  </ActionContent>
-               </BreakpointActionProxy>
-            </Actions>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "letbo/feedViewController.swift"
-            timestampString = "506365227.398721"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
-            landmarkName = "dataUpdate(insertFlag:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "letbo/feedViewController.swift"
-            timestampString = "506365227.398721"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
-            landmarkName = "dataUpdate(insertFlag:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
