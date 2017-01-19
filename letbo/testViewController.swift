@@ -96,6 +96,30 @@ class testViewController: UIViewController {
             })
             
         }
+        
+        //一个证实，在长宽都是0的view内，仿佛一个50的button，给长宽，设定边距，view和button都看不见，但是时间可以响应
+        let viewTest = UIView()
+        self.view.addSubview(viewTest)
+        viewTest.snp.makeConstraints { (make) in
+            make.centerX.equalTo(self.view.snp.centerX)
+            make.centerY.equalTo(self.view.snp.centerY)
+        }
+        let btnTest = UIButton(type: .custom)
+        btnTest.setTitle("咋地", for: .normal)
+        viewTest.addSubview(btnTest)
+        btnTest.snp.makeConstraints { (make) in
+            make.width.equalTo(50)
+            make.height.equalTo(50)
+            make.top.equalTo(viewTest.snp.top).offset(10)
+            make.bottom.equalTo(viewTest.snp.bottom).offset(-10)
+            make.left.equalTo(viewTest.snp.left).offset(10)
+            make.right.equalTo(viewTest.snp.right).offset(-10)
+        }
+		btnTest.reactive.controlEvents(.touchUpInside).observe { (event) in
+            NSLog("test button is pressed")
+        }
+        
+		
     }
     
     

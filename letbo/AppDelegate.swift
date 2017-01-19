@@ -20,8 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var loginStaute = Bool.init()
     
     
-//    let env = "TEST"
-    let env = "PRD"
+    let env = "TEST"
+//    let env = "PRD"
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
