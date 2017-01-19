@@ -12,6 +12,7 @@ import ReactiveSwift
 import SwiftyBeaver
 import Alamofire
 import SwiftyJSON
+import Spring
 
 class testViewController: UIViewController {
 
@@ -98,28 +99,51 @@ class testViewController: UIViewController {
         }
         
         //一个证实，在长宽都是0的view内，仿佛一个50的button，给长宽，设定边距，view和button都看不见，但是时间可以响应
-        let viewTest = UIView()
-        self.view.addSubview(viewTest)
-        viewTest.snp.makeConstraints { (make) in
-            make.centerX.equalTo(self.view.snp.centerX)
-            make.centerY.equalTo(self.view.snp.centerY)
+//        let viewTest = UIView()
+//        viewTest.autoresizingMask = UIViewAutoresizing.flexibleWidth
+//        self.view.addSubview(viewTest)
+//        viewTest.snp.makeConstraints { (make) in
+//            make.centerX.equalTo(self.view.snp.centerX)
+//            make.centerY.equalTo(self.view.snp.centerY)
+//        }
+//        let btnTest = UIButton(type: .custom)
+//        btnTest.setTitle("咋地", for: .normal)
+//        viewTest.addSubview(btnTest)
+//        btnTest.snp.makeConstraints { (make) in
+//            make.width.equalTo(50)
+//            make.height.equalTo(50)
+//            make.top.equalTo(viewTest.snp.top).offset(10)
+//            make.bottom.equalTo(viewTest.snp.bottom).offset(-10)
+//            make.left.equalTo(viewTest.snp.left).offset(10)
+//            make.right.equalTo(viewTest.snp.right).offset(-10)
+//        }
+//		btnTest.reactive.controlEvents(.touchUpInside).observe { (event) in
+//            NSLog("test button is pressed")
+//        }
+        //五个球，随机1-3个数做牛顿摆
+        let contentView = UIView()
+        self.view.addSubview(contentView)
+        contentView.snp.makeConstraints { (make) in
+            make.centerX.equalTo(contentView.superview!.snp.centerX)
+            make.centerY.equalTo(contentView.superview!.snp.centerY).offset(200)
+            make.width.equalTo(self.view.snp.width)
+            make.height.equalTo(60)
         }
-        let btnTest = UIButton(type: .custom)
-        btnTest.setTitle("咋地", for: .normal)
-        viewTest.addSubview(btnTest)
-        btnTest.snp.makeConstraints { (make) in
-            make.width.equalTo(50)
-            make.height.equalTo(50)
-            make.top.equalTo(viewTest.snp.top).offset(10)
-            make.bottom.equalTo(viewTest.snp.bottom).offset(-10)
-            make.left.equalTo(viewTest.snp.left).offset(10)
-            make.right.equalTo(viewTest.snp.right).offset(-10)
+        contentView.backgroundColor = UIColor.blue
+        let layer1 = SpringView()
+        contentView.addSubview(layer1)
+        layer1.snp.makeConstraints { (make) in
+            make.centerX.equalTo(contentView.snp.centerX)
+            make.centerY.equalTo(contentView.snp.centerY)
+            make.width.equalTo(20)
+            make.height.equalTo(20)
         }
-		btnTest.reactive.controlEvents(.touchUpInside).observe { (event) in
-            NSLog("test button is pressed")
-        }
+        layer1.setNeedsLayout()
+        layer1.backgroundColor = UIColor.white
+        layer1.layer.cornerRadius = 10
         
-		
+
+        
     }
     
     
