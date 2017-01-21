@@ -130,7 +130,7 @@ class testViewController: UIViewController {
             make.height.equalTo(60)
         }
         contentView.backgroundColor = UIColor.blue
-        let layer1 = SpringView()
+        let layer1 = UIView()
         contentView.addSubview(layer1)
         layer1.snp.makeConstraints { (make) in
             make.centerX.equalTo(contentView.snp.centerX)
@@ -141,6 +141,14 @@ class testViewController: UIViewController {
         layer1.setNeedsLayout()
         layer1.backgroundColor = UIColor.white
         layer1.layer.cornerRadius = 10
+        if #available(iOS 10.0, *) {
+            let timeAnimation = Timer.scheduledTimer(withTimeInterval: 4.0, repeats: true) { (time) in
+                
+            }
+        } else {
+            // Fallback on earlier versions
+        }
+
         
 
         
