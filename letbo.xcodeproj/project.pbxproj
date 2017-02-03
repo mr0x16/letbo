@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F043A391E387F0D00450F9D /* lbRefreshController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F043A381E387F0D00450F9D /* lbRefreshController.swift */; };
+		0F043A3D1E39881B00450F9D /* camera_video_download.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F043A3C1E39881B00450F9D /* camera_video_download.png */; };
 		9838B83AD128ECD3EC94A107 /* Pods_letbo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50605824D943800692E22685 /* Pods_letbo.framework */; };
 		D32DC6C01E20991800B981A5 /* myKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32DC6BE1E2098F300B981A5 /* myKeychain.swift */; };
 		D335F90E1E2D2393004A754E /* weibo.json in Resources */ = {isa = PBXBuildFile; fileRef = D335F90D1E2D2393004A754E /* weibo.json */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F043A381E387F0D00450F9D /* lbRefreshController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lbRefreshController.swift; sourceTree = "<group>"; };
+		0F043A3C1E39881B00450F9D /* camera_video_download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_video_download.png; sourceTree = "<group>"; };
 		50605824D943800692E22685 /* Pods_letbo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_letbo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55712B2E3F6C8D173E839668 /* Pods-letbo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-letbo.release.xcconfig"; path = "Pods/Target Support Files/Pods-letbo/Pods-letbo.release.xcconfig"; sourceTree = "<group>"; };
 		D32DC6BE1E2098F300B981A5 /* myKeychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myKeychain.swift; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 		D335F90C1E2D2365004A754E /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				0F043A3C1E39881B00450F9D /* camera_video_download.png */,
 				D335F90D1E2D2393004A754E /* weibo.json */,
 				D39415C81E31215900C429D8 /* littleBall.swift */,
 			);
@@ -121,6 +126,7 @@
 				D3BD2BEA1E19626C00D44A54 /* testViewController.swift */,
 				D37F41D51E211F0000417E01 /* weiboGetRequest.swift */,
 				D33C961D1E33A7CB005D30AE /* modifySpringView.swift */,
+				0F043A381E387F0D00450F9D /* lbRefreshController.swift */,
 			);
 			path = letbo;
 			sourceTree = "<group>";
@@ -190,6 +196,7 @@
 			files = (
 				D335F90E1E2D2393004A754E /* weibo.json in Resources */,
 				D3833F931E156A590036A5F3 /* LaunchScreen.storyboard in Resources */,
+				0F043A3D1E39881B00450F9D /* camera_video_download.png in Resources */,
 				D3833F901E156A590036A5F3 /* Assets.xcassets in Resources */,
 				D3833F8E1E156A590036A5F3 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +266,7 @@
 				D3833F891E156A590036A5F3 /* AppDelegate.swift in Sources */,
 				D3EA92731E18089A00F1FE4C /* hotViewController.swift in Sources */,
 				D37F41D61E211F0000417E01 /* weiboGetRequest.swift in Sources */,
+				0F043A391E387F0D00450F9D /* lbRefreshController.swift in Sources */,
 				D3EA92711E18089100F1FE4C /* feedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
